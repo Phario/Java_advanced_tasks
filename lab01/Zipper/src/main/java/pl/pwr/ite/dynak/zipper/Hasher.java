@@ -8,7 +8,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class Hasher {
-    public static String generateHash(String filePath) throws IOException, NoSuchAlgorithmException {
+    private static String generateHash(String filePath) throws IOException, NoSuchAlgorithmException {
         MessageDigest digest = MessageDigest.getInstance("SHA-256");
 
         try (FileInputStream fis = new FileInputStream(filePath)) {
@@ -22,6 +22,11 @@ public class Hasher {
         return bytesToHex(digest.digest());
     }
 
+    public static String generateHashFile(String filePath) throws IOException, NoSuchAlgorithmException {
+        String hash = generateHash(filePath);
+        Files.write(Path.of(filePath + ".sha256"), hash.getBytes());
+        return Path.of(filePath + ".sha256").toString();
+    }
 
     private static String bytesToHex(byte[] hash) {
         StringBuilder hexString = new StringBuilder(2 * hash.length);
