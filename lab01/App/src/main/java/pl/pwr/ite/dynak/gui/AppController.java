@@ -3,8 +3,11 @@ package pl.pwr.ite.dynak.gui;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
+import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import pl.pwr.ite.dynak.zipper.Zipper;
+
 import java.io.File;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
@@ -34,6 +37,18 @@ public class AppController {
     @FXML
     private Button hashButton;
 
+    @FXML
+    private Button chooseHashFileButton;
+
+    @FXML
+    private Button chooseDirectoryButton;
+
+    @FXML
+    private Button clearFilesButton;
+
+    @FXML
+    private Button unzipFilesButton;
+
     private ArrayList<String> chosenFiles = new ArrayList<>();
 
     private String hashFilePath;
@@ -46,12 +61,32 @@ public class AppController {
         hashButton.setOnAction(event -> {
             try {
                 generateHashHandler();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            } catch (NoSuchAlgorithmException e) {
-                throw new RuntimeException(e);
+            } catch (IOException | NoSuchAlgorithmException _) {
+                throw new RuntimeException();
             }
         });
+        chooseHashFileButton.setOnAction(event -> chooseHashFileHandler());
+        chooseDirectoryButton.setOnAction(event -> chooseDirectory());
+        clearFilesButton.setOnAction(event -> clearFiles());
+        unzipFilesButton.setOnAction(event -> unzipFiles());
+    }
+
+    private void chooseDirectory() {
+        DirectoryChooser directoryChooser = new DirectoryChooser();
+        directoryChooser.setTitle("Choose folder");
+
+        Stage stage = (Stage) chooseDirectoryButton.getScene().getWindow();
+        File folder = directoryChooser.showDialog(stage);
+
+        if (folder != null) {
+            String folderPath = folder.getAbsolutePath();
+            chosenFiles.add(folderPath);
+            filesChosenTextArea.appendText(folderPath + "\n");
+            resultTextArea.appendText("Selected folder: " + folder.getAbsolutePath() + "\n");
+        }
+        else {
+            resultTextArea.appendText("No folder selected\n");
+        }
     }
 
     private void chooseFiles() {
@@ -106,10 +141,13 @@ public class AppController {
     }
 
     private void checkHashHandler() {
-        String fileToCheck = chosenFiles.get(0);
+        String fileToCheck = chosenFiles.getFirst();
 
         if (fileToCheck != null && checkHash(fileToCheck, hashFilePath)) {
             resultTextArea.appendText("Hash matches\n");
+        }
+        else if (fileToCheck != null && !checkHash(fileToCheck, hashFilePath)) {
+            resultTextArea.appendText("Hash does not match\n");
         }
         else {
             resultTextArea.appendText("No file selected\n");
@@ -117,7 +155,52 @@ public class AppController {
     }
 
     private void generateHashHandler() throws IOException, NoSuchAlgorithmException {
-        hashFilePath = generateHashFile(chosenFiles.get(0));
+        generateHashFile(chosenFiles.getFirst());
         resultTextArea.appendText("Hash generated at " + hashFilePath + "\n");
+    }
+
+    private void chooseHashFileHandler() {
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Choose hash file");
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Hash Files", "*.sha256"));
+
+        Stage stage = (Stage) chooseHashFileButton.getScene().getWindow();
+        File hashFile = fileChooser.showOpenDialog(stage);
+
+        if (hashFile != null) {
+            hashFilePath = hashFile.getAbsolutePath();
+            resultTextArea.appendText("Hash file selected: " + hashFilePath + "\n");
+        } else {
+            resultTextArea.appendText("No hash file selected\n");
+        }
+    }
+
+    private void clearFiles() {
+        filesChosenTextArea.clear();
+        chosenFiles.clear();
+        resultTextArea.appendText("Files cleared\n");
+    }
+
+    private void unzipFiles() {
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Choose ZIP file");
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("ZIP Files", "*.zip"));
+
+        Stage stage = (Stage) unzipFilesButton.getScene().getWindow();
+        File zipFile = fileChooser.showOpenDialog(stage);
+
+        DirectoryChooser directoryChooser = new DirectoryChooser();
+        directoryChooser.setTitle("Choose destination for unzipping");
+        File destinationDir = directoryChooser.showDialog(stage);
+
+        if (zipFile != null && destinationDir != null) {
+            try {
+                Zipper.unzipFile(zipFile, destinationDir);
+                resultTextArea.appendText("Files unzipped to: " + destinationDir.getAbsolutePath() + "\n");
+            } catch (IOException e) {
+                resultTextArea.appendText("Error during unzipping: " + e.getMessage() + "\n");
+                e.printStackTrace();
+            }
+        }
     }
 }

@@ -9,7 +9,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pwr.ite.dynak.gui.AppController">
    <children>
-      <GridPane layoutX="44.0" prefHeight="186.0" prefWidth="126.0">
+      <GridPane layoutX="44.0" prefHeight="400.0" prefWidth="126.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
@@ -18,15 +18,23 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="chooseFilesButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="Choose files" />
-            <Button fx:id="checkHashButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="Check " GridPane.rowIndex="3" />
-            <Button fx:id="zipButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="Zip" GridPane.rowIndex="1" />
-            <Button fx:id="hashButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="Hash" GridPane.rowIndex="2" />
+            <Button fx:id="chooseFilesButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="148.0" text="Choose files" />
+            <Button fx:id="checkHashButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" text="Compare hashes" GridPane.rowIndex="5" />
+            <Button fx:id="zipButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="144.0" text="Zip files" GridPane.rowIndex="2" />
+            <Button fx:id="hashButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" text="Generate hash" GridPane.rowIndex="3" />
+            <Button fx:id="chooseHashFileButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Load hash file" GridPane.rowIndex="4" />
+            <Button fx:id="chooseDirectoryButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="139.0" text="Choose folders" GridPane.rowIndex="1" />
+            <Button fx:id="clearFilesButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Clear file list" GridPane.rowIndex="7" />
+            <Button fx:id="unzipFilesButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="Unzip file" GridPane.rowIndex="6" />
          </children>
       </GridPane>
       <TextArea fx:id="filesChosenTextArea" layoutX="211.0" layoutY="14.0" prefHeight="228.0" prefWidth="375.0" AnchorPane.bottomAnchor="158.0" AnchorPane.leftAnchor="211.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0" />
-      <TextArea fx:id="resultTextArea" layoutX="211.0" layoutY="257.0" prefHeight="117.0" prefWidth="375.0" />
+      <TextArea fx:id="resultTextArea" layoutX="211.0" layoutY="257.0" prefHeight="132.0" prefWidth="375.0" />
    </children>
 </AnchorPane>

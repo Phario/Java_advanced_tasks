@@ -22,10 +22,9 @@ public class Hasher {
         return bytesToHex(digest.digest());
     }
 
-    public static String generateHashFile(String filePath) throws IOException, NoSuchAlgorithmException {
+    public static void generateHashFile(String filePath) throws IOException, NoSuchAlgorithmException {
         String hash = generateHash(filePath);
         Files.write(Path.of(filePath + ".sha256"), hash.getBytes());
-        return Path.of(filePath + ".sha256").toString();
     }
 
     private static String bytesToHex(byte[] hash) {
