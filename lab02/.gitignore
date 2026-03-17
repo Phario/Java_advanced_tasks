@@ -38,3 +38,8 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### output directories ###
+/outputdir/
+/out/
+/mods/
