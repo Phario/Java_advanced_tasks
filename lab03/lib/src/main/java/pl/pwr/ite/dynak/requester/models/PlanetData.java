@@ -12,9 +12,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class StarshipData {
+public class PlanetData {
     private String name;
-    @JsonProperty("crew")
-    private String crewCapacity;
-
+    @JsonProperty("rotation_period")
+    private String rotationPeriod;
 }

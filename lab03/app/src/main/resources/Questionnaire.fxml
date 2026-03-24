@@ -7,23 +7,21 @@
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.Glow?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.TextFlow?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E9FBFA;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pwr.ite.dynak.app.QuestionnaireController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="600.0" style="-fx-background-color: #E9FBFA;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pwr.ite.dynak.app.QuestionnaireController">
    <children>
       <TextFlow prefHeight="66.0" prefWidth="560.0" style="-fx-background-color: #439BDE; -fx-background-radius: 15;" textAlignment="CENTER">
          <VBox.margin>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </VBox.margin>
          <children>
-            <Label text="Question:" textFill="WHITE">
+            <Label fx:id="questionPromptLabel" text="Question:" textFill="WHITE">
                <padding>
                   <Insets left="250.0" right="250.0" />
                </padding>
@@ -31,57 +29,29 @@
                   <Font name="Fira Code Regular" size="13.0" />
                </font>
             </Label>
-            <Label text="Content" textFill="WHITE">
+            <Label fx:id="questionLabel" text="Content" textFill="WHITE">
                <font>
                   <Font name="Fira Code Regular" size="13.0" />
                </font></Label>
          </children>
       </TextFlow>
-      <GridPane hgap="20.0" vgap="20.0">
-        <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
-         <children>
-            <Button fx:id="answer1" mnemonicParsing="false" prefHeight="30.0" prefWidth="270.0" style="-fx-background-color: #43DED4; -fx-background-radius: 15;" text="Button">
-               <font>
-                  <Font name="Fira Code Regular" size="13.0" />
-               </font></Button>
-            <Button fx:id="answer2" mnemonicParsing="false" prefHeight="30.0" prefWidth="270.0" style="-fx-background-color: #43DED4; -fx-background-radius: 15;" text="Button" GridPane.rowIndex="1">
-                <font>
-                    <Font name="Fira Code Regular" size="13.0" />
-                </font></Button>
-            <Button fx:id="answer3" mnemonicParsing="false" prefHeight="30.0" prefWidth="270.0" style="-fx-background-color: #43DED4; -fx-background-radius: 15;" text="Button" GridPane.columnIndex="1">
-                <font>
-                    <Font name="Fira Code Regular" size="13.0" />
-                </font></Button>
-            <Button fx:id="answer4" mnemonicParsing="false" prefHeight="30.0" prefWidth="270.0" style="-fx-background-color: #43DED4; -fx-background-radius: 15;" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1">
-                <font>
-                    <Font name="Fira Code Regular" size="13.0" />
-                </font></Button>
-         </children>
-         <opaqueInsets>
-            <Insets />
-         </opaqueInsets>
-         <padding>
-            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-         </padding>
+      <TextField fx:id="answerField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="300.0" promptText="Enter your answer here">
          <VBox.margin>
-            <Insets />
+            <Insets left="150.0" right="150.0" />
          </VBox.margin>
-      </GridPane>
+      </TextField>
       <StackPane prefHeight="100.0" prefWidth="600.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" style="-fx-background-color: #43DED4; -fx-background-radius: 15; -fx-border-color: #43DE86; -fx-border-radius: 15; -fx-border-width: 3;" text="Start Quiz" />
-            <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="500.0" style="-fx-background-color: #43DE86; -fx-background-radius: 15;" textAlignment="CENTER" visible="false">
+            <Button fx:id="universalButton" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" style="-fx-background-color: #43DED4; -fx-background-radius: 15; -fx-border-color: #43DE86; -fx-border-radius: 15; -fx-border-width: 3;" text="Start Quiz" />
+         </children>
+      </StackPane>
+      <StackPane prefHeight="90.0" prefWidth="600.0">
+         <children>
+            <TextFlow fx:id="correctLabelField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="580.0" style="-fx-background-color: #43DE86; -fx-background-radius: 15;" textAlignment="CENTER" visible="false">
                <children>
                   <StackPane prefHeight="55.0" prefWidth="600.0">
                      <children>
-                        <Label style="-fx-background-radius: 15;" text="Correct!" textFill="WHITE">
+                        <Label fx:id="correctLabel" style="-fx-background-radius: 15;" text="Correct!" textFill="WHITE">
                            <font>
                               <Font name="Fira Code Regular" size="18.0" />
                            </font>
@@ -90,11 +60,11 @@
                   </StackPane>
                </children>
             </TextFlow>
-            <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="500.0" style="-fx-background-color: #DE439B; -fx-background-radius: 15;" textAlignment="CENTER" visible="false">
+            <TextFlow fx:id="wrongLabelField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="580.0" style="-fx-background-color: #DE439B; -fx-background-radius: 15;" textAlignment="CENTER" visible="false">
                <children>
                   <StackPane prefHeight="55.0" prefWidth="600.0">
                      <children>
-                        <Label style="-fx-background-radius: 15;" text="Wrong answer!" textFill="WHITE">
+                        <Label fx:id="wrongLabel" style="-fx-background-radius: 15;" text="Wrong answer!" textFill="WHITE">
                            <font>
                               <Font name="Fira Code Regular" size="18.0" />
                            </font>
@@ -107,12 +77,12 @@
       </StackPane>
       <StackPane prefHeight="50.0" prefWidth="600.0">
          <children>
-            <Label text="Progress:">
+            <Label fx:id="progressLabel" text="Progress:">
                <StackPane.margin>
                   <Insets right="500.0" />
                </StackPane.margin>
             </Label>
-            <ProgressBar prefHeight="25.0" prefWidth="421.0">
+            <ProgressBar fx:id="progressBar" prefHeight="25.0" prefWidth="421.0">
                <effect>
                   <Glow />
                </effect>
@@ -121,16 +91,10 @@
       </StackPane>
       <MenuBar prefHeight="25.0" prefWidth="600.0">
         <menus>
-          <Menu mnemonicParsing="false" text="Settings">
-            <items>
-              <MenuItem mnemonicParsing="false" text="Reset progress" />
-                  <MenuItem mnemonicParsing="false" text="Generate new quiz" />
-            </items>
-          </Menu>
-            <Menu mnemonicParsing="false" text="Language">
+            <Menu fx:id="menuLang" mnemonicParsing="false" text="Language">
               <items>
-                  <MenuItem mnemonicParsing="false" text="English" />
-                <MenuItem mnemonicParsing="false" text="Polish" />
+                  <MenuItem fx:id="menuLangEnglish" mnemonicParsing="false" text="English" />
+                <MenuItem fx:id="menuLangPolish" mnemonicParsing="false" text="Polski" />
               </items>
             </Menu>
         </menus>

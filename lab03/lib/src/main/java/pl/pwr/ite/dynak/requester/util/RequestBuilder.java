@@ -1,16 +1,25 @@
 package pl.pwr.ite.dynak.requester.util;
 
+import pl.pwr.ite.dynak.requester.enums.RequestType;
+
+import java.net.MalformedURLException;
+import java.net.URI;
 import java.net.URL;
 
 public class RequestBuilder {
-    private final String BASE_URL = "https://swapi.dev/api/";
+    private static final String BASE_URL = "https://swapi.dev/api/";
+    protected static final int MAX_ID = 15;
 
-    public RequestBuilder() {
+    public static URL buildInfoURL(int id, RequestType type) {
+        if (id <= 0 || id > MAX_ID) id = 1;
+        if (type == null) throw new IllegalArgumentException("RequestType cannot be null");
 
-    }
-
-    public static URL buildSpeciesInfoURL(int speciesId) {
-
+        URI uri = URI.create(BASE_URL + type.toString().toLowerCase() + "/" + id);
+        try {
+            return uri.toURL();
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 }

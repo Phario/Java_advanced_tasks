@@ -1,7 +1,6 @@
 package pl.pwr.ite.dynak.requester.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,9 +11,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class StarshipData {
+public class CharacterData {
     private String name;
-    @JsonProperty("crew")
-    private String crewCapacity;
-
+    private String gender;
+    private String height;
 }
