@@ -3,7 +3,8 @@ package pl.pwr.ite.dynak.processor;
 import pl.pwr.ite.dynak.lib.Processor;
 import pl.pwr.ite.dynak.lib.StatusListener;
 
-public class CsvTrimmer implements Processor {
+public class CsvRowCloner implements Processor {
+
     @Override
     public boolean submitTask(String s, StatusListener statusListener) {
         return false;
@@ -11,7 +12,7 @@ public class CsvTrimmer implements Processor {
 
     @Override
     public String getInfo() {
-        return "Removes specified rows" + System.lineSeparator() +
+        return "Clones specified rows, added at the end of the file" + System.lineSeparator() +
                 "Format: 1|13|42|80";
     }
 

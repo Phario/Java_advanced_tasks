@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>pl.pwr.ite.dynak.lab04</groupId>
+        <groupId>pl.pwr.ite.dynak</groupId>
         <artifactId>lab04</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -12,6 +12,15 @@
     <groupId>pl.pwr.ite.dynak.app</groupId>
     <artifactId>app</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>pl.pwr.ite.dynak</groupId>
+            <artifactId>lib</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>25</maven.compiler.source>
