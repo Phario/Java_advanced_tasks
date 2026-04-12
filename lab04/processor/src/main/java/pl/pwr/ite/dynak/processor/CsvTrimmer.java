@@ -17,6 +17,8 @@ public class CsvTrimmer implements Processor {
 
     private static int taskId = 0;
     private String result;
+
+    //task to cały request z danymi i formatem zadania w pierwszej linijce, potem jest rozdzielany
     private String task;
     @Override
     public boolean submitTask(String task, StatusListener sl) {
@@ -42,6 +44,9 @@ public class CsvTrimmer implements Processor {
 
                 if (ai.get() >= 100) {
                     result = processData();
+                    executor.shutdown();
+                    scheduledExecutor.shutdown();
+                    break;
                 }
             }
         });
@@ -65,7 +70,12 @@ public class CsvTrimmer implements Processor {
     }
 
     private String processData() {
-        String input = extractRequest(task);
+        String[] separatedInput = extractRequest(task);
+
+        // tu jest żądanie w odpowiednim formacie
+        String taskData = separatedInput[0];
+        // a tu reszta csv
+        String input = separatedInput[1];
 
         System.out.println(input);
 
@@ -73,7 +83,7 @@ public class CsvTrimmer implements Processor {
             return "";
         }
 
-        Set<Integer> rowsToRemove = Arrays.stream(task.split("\\|"))
+        Set<Integer> rowsToRemove = Arrays.stream(taskData.split("\\|"))
                 .map(String::trim)
                 .map(Integer::parseInt)
                 .collect(Collectors.toSet());
@@ -92,7 +102,7 @@ public class CsvTrimmer implements Processor {
         return sb.toString();
     }
 
-    private String extractRequest(String task) {
-        return task.split("\n", 2)[0];
+    private String[] extractRequest(String task) {
+        return task.split("\n", 2);
     }
 }
