@@ -4,9 +4,13 @@ import pl.pwr.ite.dynak.lib.Processor;
 import pl.pwr.ite.dynak.lib.StatusListener;
 
 public class CsvFilter implements Processor {
+
+    private static int taskId = 0;
+    private String result;
+
     @Override
     public boolean submitTask(String task, StatusListener sl) {
-        return false;
+        return !task.isEmpty();
     }
 
     @Override
@@ -17,6 +21,6 @@ public class CsvFilter implements Processor {
 
     @Override
     public String getResult() {
-        return "";
+        return result;
     }
 }

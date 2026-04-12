@@ -3,10 +3,10 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.TreeTableColumn?>
-<?import javafx.scene.control.TreeTableView?>
 <?import javafx.scene.effect.Bloom?>
 <?import javafx.scene.effect.Glow?>
 <?import javafx.scene.layout.ColumnConstraints?>
@@ -15,19 +15,20 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pwr.ite.dynak.app.AppController">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1131.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pwr.ite.dynak.app.AppController">
    <children>
-      <VBox prefHeight="500.0" prefWidth="400.0">
+      <VBox alignment="TOP_CENTER" prefHeight="641.0" prefWidth="450.0">
          <children>
-            <TreeTableView prefHeight="440.0" prefWidth="400.0">
+            <TableView fx:id="classTableView" prefHeight="590.0" prefWidth="450.0">
               <columns>
-                <TreeTableColumn fx:id="classTreeTableView" prefWidth="399.0" text="Fully qualified class name" />
+                <TableColumn fx:id="classNameColumn" prefWidth="354.0" text="Fully qualified class name" />
+                <TableColumn fx:id="statusColumn" prefWidth="101.0" text="Status" />
               </columns>
-            </TreeTableView>
-            <Button fx:id="chooseClassDirectoryButton" mnemonicParsing="false" prefHeight="60.0" prefWidth="400.0" text="Choose class files directory" />
+            </TableView>
+            <Button fx:id="chooseClassDirectoryButton" alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="450.0" text="Choose class files directory" />
          </children>
       </VBox>
-      <VBox alignment="CENTER" prefHeight="500.0" prefWidth="500.0">
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="680.0">
          <children>
             <GridPane alignment="CENTER" prefHeight="192.0" prefWidth="500.0">
               <columnConstraints>
@@ -45,20 +46,21 @@
                   <Button fx:id="sendRequestButton" mnemonicParsing="false" prefHeight="30.0" prefWidth="124.0" text="Send request" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
                   <TextArea fx:id="classInfoTextField" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="350.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
                   <TextField fx:id="requestTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="350.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                  <Button fx:id="unloadClassButton" mnemonicParsing="false" prefHeight="30.0" prefWidth="124.0" text="Unload class" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
                </children>
             </GridPane>
-            <HBox prefHeight="135.0" prefWidth="500.0">
+            <HBox alignment="CENTER" prefHeight="135.0" prefWidth="500.0">
                <children>
                   <VBox alignment="CENTER" prefHeight="100.0" prefWidth="250.0">
                      <children>
                         <Label text="Input" />
-                        <TextArea fx:id="inputTextArea" editable="false" prefHeight="110.0" prefWidth="250.0" />
+                        <TextArea fx:id="inputTextArea" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="175.0" prefWidth="340.0" />
                      </children>
                   </VBox>
                   <VBox alignment="CENTER" prefHeight="100.0" prefWidth="250.0">
                      <children>
                         <Label text="Output" />
-                        <TextArea fx:id="outputTextArea" editable="false" prefHeight="110.0" prefWidth="250.0" />
+                        <TextArea fx:id="outputTextArea" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="175.0" prefWidth="340.0" />
                      </children>
                   </VBox>
                </children>
@@ -74,7 +76,7 @@
                </effect>
             </ProgressBar>
             <Label alignment="CENTER" prefHeight="25.0" prefWidth="500.0" text="Logs:" />
-            <TextArea fx:id="logTextArea" editable="false" prefHeight="108.0" prefWidth="302.0" />
+            <TextArea fx:id="logTextArea" editable="false" prefHeight="200.0" prefWidth="680.0" />
          </children>
       </VBox>
    </children>

@@ -5,9 +5,12 @@ import pl.pwr.ite.dynak.lib.StatusListener;
 
 public class CsvRowCloner implements Processor {
 
+    private static int taskId = 0;
+    private String result;
+
     @Override
-    public boolean submitTask(String s, StatusListener statusListener) {
-        return false;
+    public boolean submitTask(String task, StatusListener sl) {
+        return !task.isEmpty();
     }
 
     @Override
@@ -18,6 +21,6 @@ public class CsvRowCloner implements Processor {
 
     @Override
     public String getResult() {
-        return "";
+        return "Task finished (csv row cloned)";
     }
 }

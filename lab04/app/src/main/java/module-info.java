@@ -3,6 +3,7 @@ module app {
     requires javafx.graphics;
     requires javafx.controls;
     requires lib;
+    requires lombok;
 
     opens pl.pwr.ite.dynak.app to
             javafx.fxml,
