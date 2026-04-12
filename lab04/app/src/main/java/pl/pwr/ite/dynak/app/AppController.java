@@ -105,7 +105,6 @@ public class AppController {
                 if (result != null) {
                     System.out.println("Result: " + result);
                     Platform.runLater(() -> outputTextArea.setText(result));
-                    result = null;
                     break;
                 }
             }
@@ -114,6 +113,7 @@ public class AppController {
     }
 
     private void sendRequestButtonHandler() {
+        result = null;
         var request = requestTextField.getText();
 
         if (request == null || request.isEmpty()) {
@@ -122,6 +122,10 @@ public class AppController {
         }
         else if (submitTaskMethod == null || processor == null) {
             log("No class loaded");
+            return;
+        }
+        else if (inputTextArea.getText() == null || inputTextArea.getText().isEmpty()) {
+            log("No input specified");
             return;
         }
 
@@ -167,6 +171,9 @@ public class AppController {
     private void unloadClassButtonHandler() {
         loadedClass = null;
         classLoader = null;
+        getInfoMethod = null;
+        submitTaskMethod = null;
+        getResultMethod = null;
         classInfoTextField.setText("");
         inputTextArea.setText("");
         outputTextArea.setText("");

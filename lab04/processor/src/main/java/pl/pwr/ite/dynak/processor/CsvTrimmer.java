@@ -26,6 +26,10 @@ public class CsvTrimmer implements Processor {
         AtomicInteger ai = new AtomicInteger(0);
         this.task = task;
 
+        if (!checkTaskValidity(extractRequest(task)[0])) {
+            return false;
+        }
+
         ScheduledExecutorService scheduledExecutor = Executors.newSingleThreadScheduledExecutor();
 
         scheduledExecutor.scheduleAtFixedRate(() -> {
@@ -104,5 +108,9 @@ public class CsvTrimmer implements Processor {
 
     private String[] extractRequest(String task) {
         return task.split("\n", 2);
+    }
+
+    private boolean checkTaskValidity(String task) {
+        return task.contains("|");
     }
 }
