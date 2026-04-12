@@ -1,15 +1,33 @@
 package pl.pwr.ite.dynak.processor;
 
 import pl.pwr.ite.dynak.lib.Processor;
+import pl.pwr.ite.dynak.lib.Status;
 import pl.pwr.ite.dynak.lib.StatusListener;
+
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class CsvRowCloner implements Processor {
 
     private static int taskId = 0;
     private String result;
+    private String input;
 
     @Override
     public boolean submitTask(String task, StatusListener sl) {
+        taskId++;
+        AtomicInteger ai = new AtomicInteger(0);
+
+        ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
+
+        executor.scheduleAtFixedRate(() -> {
+            sl.statusChanged(new Status(taskId, ai.getAndIncrement()));
+        }, 10, 10, TimeUnit.MILLISECONDS);
+
+
+
         return !task.isEmpty();
     }
 
@@ -21,6 +39,10 @@ public class CsvRowCloner implements Processor {
 
     @Override
     public String getResult() {
-        return "Task finished (csv row cloned)";
+        try {
+            return result;
+        } finally {
+            result = null;
+        }
     }
 }

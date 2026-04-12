@@ -1,5 +1,6 @@
 package pl.pwr.ite.dynak.app;
 
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.stage.DirectoryChooser;
@@ -19,6 +20,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class AppController {
 
@@ -44,7 +47,7 @@ public class AppController {
 
     @FXML private TextArea inputTextArea;
 
-    @FXML private TextArea ouputTextArea;
+    @FXML private TextArea outputTextArea;
 
     @FXML private Label progressLabel;
 
@@ -65,6 +68,8 @@ public class AppController {
     private Processor processor;
 
     private Path basePath;
+
+    private String result;
 
     @FXML
     private void initialize() {
@@ -87,7 +92,25 @@ public class AppController {
     }
 
     private void processRequest() {
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
 
+        executorService.submit(() -> {
+            while (true) {
+                try {
+                    Thread.sleep(100);
+                    result = (String) getResultMethod.invoke(processor);
+                } catch (InterruptedException | IllegalAccessException | InvocationTargetException e) {
+                    e.printStackTrace();
+                }
+                if (result != null) {
+                    System.out.println("Result: " + result);
+                    Platform.runLater(() -> outputTextArea.setText(result));
+                    result = null;
+                    break;
+                }
+            }
+            executorService.shutdown();
+        });
     }
 
     private void sendRequestButtonHandler() {
@@ -108,10 +131,16 @@ public class AppController {
             System.out.println("Method: " + submitTaskMethod);
             System.out.println("Processor class: " + processor.getClass().getName());
             System.out.println("Processor classloader: " + processor.getClass().getClassLoader());
-            var isTaskAccepted = (boolean)submitTaskMethod.invoke(processor, request, new ProgressListener(progressBar));
+
+            String requestData = request + "\n" + inputTextArea.getText();
+
+            var isTaskAccepted = (boolean)submitTaskMethod.invoke(processor, requestData, new ProgressListener(progressBar));
+
             System.out.println("Result: " + isTaskAccepted);
+
             if (isTaskAccepted) {
                 log("Task accepted");
+                processRequest();
             }
             else {
                 log("Task rejected");
@@ -119,8 +148,6 @@ public class AppController {
         } catch (InvocationTargetException | IllegalAccessException e) {
             log("Error sending request: " + e.getMessage());
         }
-
-        processRequest();
     }
 
     private void getClassInfoButtonHandler() {
@@ -142,6 +169,7 @@ public class AppController {
         classLoader = null;
         classInfoTextField.setText("");
         inputTextArea.setText("");
+        outputTextArea.setText("");
 
         ClassState classState = classTableView.getSelectionModel().getSelectedItem();
 
