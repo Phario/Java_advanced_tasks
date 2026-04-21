@@ -16,5 +16,4 @@ public class StarshipData {
     private String name;
     @JsonProperty("crew")
     private String crewCapacity;
-
 }
