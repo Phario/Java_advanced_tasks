@@ -1,7 +1,8 @@
-package pl.pwr.ite.dynak.app;
+package pl.pwr.ite.dynak.app.utils;
 
 import ex.api.AnalysisService;
 
+import java.net.URL;
 import java.util.ServiceLoader;
 
 public class AnalysisServiceLoader {
