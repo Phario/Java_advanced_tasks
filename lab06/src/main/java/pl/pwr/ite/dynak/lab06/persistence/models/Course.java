@@ -1,14 +1,22 @@
 package pl.pwr.ite.dynak.lab06.persistence.models;
 
 import jakarta.persistence.*;
-import pl.pwr.ite.dynak.lab06.utils.CourseTypes;
+import lombok.Getter;
+import lombok.Setter;
+import pl.pwr.ite.dynak.lab06.persistence.enums.MealTypes;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "courses")
 public class Course {
+
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private CourseTypes type;
+
+    @Enumerated(EnumType.STRING)
+    private MealTypes mealType;
+
     private Double price;
 }

@@ -1,4 +1,4 @@
-package pl.pwr.ite.dynak.lab06.utils;
+package pl.pwr.ite.dynak.lab06.persistence.enums;
 
 public enum DietTypes {
     VEGAN,

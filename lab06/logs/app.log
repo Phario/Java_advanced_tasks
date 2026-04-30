@@ -1,0 +1,599 @@
+2026-04-28T07:10:20.283+02:00  INFO 22792 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 22792 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T07:10:20.289+02:00  INFO 22792 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T07:10:20.358+02:00  INFO 22792 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T07:10:20.850+02:00  INFO 22792 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T07:10:20.915+02:00  INFO 22792 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 5 JPA repository interfaces.
+2026-04-28T07:10:21.236+02:00  INFO 22792 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T07:10:21.287+02:00  INFO 22792 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T07:10:21.761+02:00  INFO 22792 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T07:10:21.795+02:00  INFO 22792 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T07:10:21.886+02:00  INFO 22792 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@69a6931a
+2026-04-28T07:10:21.888+02:00  INFO 22792 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T07:10:21.926+02:00  INFO 22792 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T07:10:22.817+02:00  INFO 22792 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T07:10:22.860+02:00  INFO 22792 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T07:10:22.939+02:00  INFO 22792 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T07:10:23.613+02:00  INFO 22792 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 3.87 seconds (process running for 4.639)
+2026-04-28T07:11:16.348+02:00  INFO 22792 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.0
+2026-04-28T07:11:38.029+02:00  INFO 22792 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T07:11:38.033+02:00  INFO 22792 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T07:11:38.036+02:00  INFO 22792 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T07:12:12.930+02:00  INFO 20924 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 20924 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T07:12:12.933+02:00  INFO 20924 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T07:12:12.985+02:00  INFO 20924 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T07:12:13.432+02:00  INFO 20924 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T07:12:13.497+02:00  INFO 20924 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 5 JPA repository interfaces.
+2026-04-28T07:12:13.819+02:00  INFO 20924 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T07:12:13.875+02:00  INFO 20924 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T07:12:14.354+02:00  INFO 20924 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T07:12:14.387+02:00  INFO 20924 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T07:12:14.478+02:00  INFO 20924 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@7d548b4e
+2026-04-28T07:12:14.480+02:00  INFO 20924 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T07:12:14.528+02:00  INFO 20924 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T07:12:15.424+02:00  INFO 20924 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T07:12:15.471+02:00  INFO 20924 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T07:12:15.548+02:00  INFO 20924 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T07:12:16.257+02:00  INFO 20924 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 3.832 seconds (process running for 4.651)
+2026-04-28T07:12:21.875+02:00  INFO 20924 --- [lab06] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-28T07:12:21.889+02:00 ERROR 20924 --- [lab06] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.hibernate.LazyInitializationException: Cannot lazily initialize collection of role 'pl.pwr.ite.dynak.lab06.persistence.models.Order.mealTypes' with key '1' (no session)
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:647) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:232) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:620) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:142) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.collection.spi.PersistentSet.toString(PersistentSet.java:295) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at java.base/java.lang.String.valueOf(String.java:4530) ~[na:na]
+	at pl.pwr.ite.dynak.lab06.core.services.SimulationService.lambda$displayAllOrdersHandler$0(SimulationService.java:77) ~[classes/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) ~[na:na]
+	at pl.pwr.ite.dynak.lab06.core.services.SimulationService.displayAllOrdersHandler(SimulationService.java:74) ~[classes/:na]
+	at pl.pwr.ite.dynak.lab06.core.services.SimulationService.adminChoices(SimulationService.java:56) ~[classes/:na]
+	at pl.pwr.ite.dynak.lab06.core.services.SimulationService.run(SimulationService.java:254) ~[classes/:na]
+	at pl.pwr.ite.dynak.lab06.Lab06Application.run(Lab06Application.java:24) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776) ~[spring-boot-4.0.5.jar:4.0.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
+	at pl.pwr.ite.dynak.lab06.Lab06Application.main(Lab06Application.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+
+2026-04-28T07:12:21.897+02:00  INFO 20924 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T07:12:21.900+02:00  INFO 20924 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T07:12:21.903+02:00  INFO 20924 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T07:15:53.431+02:00  INFO 19540 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 19540 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T07:15:53.434+02:00  INFO 19540 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T07:15:53.489+02:00  INFO 19540 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T07:15:54.001+02:00  INFO 19540 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T07:15:54.074+02:00  INFO 19540 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 5 JPA repository interfaces.
+2026-04-28T07:15:54.401+02:00  INFO 19540 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T07:15:54.453+02:00  INFO 19540 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T07:15:54.937+02:00  INFO 19540 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T07:15:54.973+02:00  INFO 19540 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T07:15:55.068+02:00  INFO 19540 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@e95a2d1
+2026-04-28T07:15:55.069+02:00  INFO 19540 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T07:15:55.119+02:00  INFO 19540 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T07:15:56.028+02:00  INFO 19540 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T07:15:56.075+02:00  INFO 19540 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T07:15:56.161+02:00  INFO 19540 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T07:15:56.923+02:00  INFO 19540 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 4.009 seconds (process running for 4.825)
+2026-04-28T07:16:01.556+02:00  INFO 19540 --- [lab06] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-28T07:16:01.574+02:00 ERROR 19540 --- [lab06] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.hibernate.LazyInitializationException: Cannot lazily initialize collection of role 'pl.pwr.ite.dynak.lab06.persistence.models.Order.mealTypes' with key '1' (no session)
+	at org.hibernate.collection.spi.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:647) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:232) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:620) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.collection.spi.AbstractPersistentCollection.read(AbstractPersistentCollection.java:142) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.collection.spi.PersistentSet.iterator(PersistentSet.java:164) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at java.base/java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1959) ~[na:na]
+	at java.base/java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:414) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:569) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723) ~[na:na]
+	at pl.pwr.ite.dynak.lab06.core.services.SimulationService.lambda$displayAllOrdersHandler$0(SimulationService.java:77) ~[classes/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) ~[na:na]
+	at pl.pwr.ite.dynak.lab06.core.services.SimulationService.displayAllOrdersHandler(SimulationService.java:74) ~[classes/:na]
+	at pl.pwr.ite.dynak.lab06.core.services.SimulationService.adminChoices(SimulationService.java:56) ~[classes/:na]
+	at pl.pwr.ite.dynak.lab06.core.services.SimulationService.run(SimulationService.java:258) ~[classes/:na]
+	at pl.pwr.ite.dynak.lab06.Lab06Application.run(Lab06Application.java:24) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776) ~[spring-boot-4.0.5.jar:4.0.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
+	at pl.pwr.ite.dynak.lab06.Lab06Application.main(Lab06Application.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+
+2026-04-28T07:16:01.583+02:00  INFO 19540 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T07:16:01.586+02:00  INFO 19540 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T07:16:01.588+02:00  INFO 19540 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T07:22:26.219+02:00  INFO 18796 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 18796 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T07:22:26.222+02:00  INFO 18796 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T07:22:26.269+02:00  INFO 18796 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T07:22:26.797+02:00  INFO 18796 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T07:22:26.866+02:00  INFO 18796 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 5 JPA repository interfaces.
+2026-04-28T07:22:27.182+02:00  INFO 18796 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T07:22:27.235+02:00  INFO 18796 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T07:22:27.727+02:00  INFO 18796 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T07:22:27.768+02:00  INFO 18796 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T07:22:27.862+02:00  INFO 18796 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@18b1f09f
+2026-04-28T07:22:27.864+02:00  INFO 18796 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T07:22:27.904+02:00  INFO 18796 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T07:22:28.793+02:00  INFO 18796 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T07:22:28.831+02:00  INFO 18796 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T07:22:28.912+02:00  INFO 18796 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T07:22:29.668+02:00  INFO 18796 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 4.061 seconds (process running for 4.81)
+2026-04-28T07:23:11.952+02:00  INFO 18796 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T07:23:11.956+02:00  INFO 18796 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T07:23:11.958+02:00  INFO 18796 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T07:23:47.397+02:00  INFO 19256 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 19256 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T07:23:47.400+02:00  INFO 19256 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T07:23:47.450+02:00  INFO 19256 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T07:23:47.897+02:00  INFO 19256 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T07:23:47.958+02:00  INFO 19256 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 5 JPA repository interfaces.
+2026-04-28T07:23:48.284+02:00  INFO 19256 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T07:23:48.336+02:00  INFO 19256 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T07:23:48.813+02:00  INFO 19256 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T07:23:48.847+02:00  INFO 19256 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T07:23:48.936+02:00  INFO 19256 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@279cdfd7
+2026-04-28T07:23:48.938+02:00  INFO 19256 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T07:23:48.985+02:00  INFO 19256 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T07:23:49.851+02:00  INFO 19256 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T07:23:49.894+02:00  INFO 19256 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T07:23:49.971+02:00  INFO 19256 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T07:23:50.639+02:00  INFO 19256 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 3.75 seconds (process running for 4.578)
+2026-04-28T07:23:59.063+02:00  INFO 19256 --- [lab06] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-28T07:23:59.079+02:00 ERROR 19256 --- [lab06] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:542) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[na:na]
+	at pl.pwr.ite.dynak.lab06.core.services.SimulationService.adminChoices(SimulationService.java:53) ~[classes/:na]
+	at pl.pwr.ite.dynak.lab06.core.services.SimulationService.run(SimulationService.java:260) ~[classes/:na]
+	at pl.pwr.ite.dynak.lab06.Lab06Application.run(Lab06Application.java:24) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776) ~[spring-boot-4.0.5.jar:4.0.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
+	at pl.pwr.ite.dynak.lab06.Lab06Application.main(Lab06Application.java:19) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+
+2026-04-28T07:23:59.087+02:00  INFO 19256 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T07:23:59.091+02:00  INFO 19256 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T07:23:59.093+02:00  INFO 19256 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T12:09:54.109+02:00  INFO 26124 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 26124 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T12:09:54.113+02:00  INFO 26124 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T12:09:54.167+02:00  INFO 26124 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T12:09:54.688+02:00  INFO 26124 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T12:09:54.768+02:00  INFO 26124 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2026-04-28T12:09:55.143+02:00  INFO 26124 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T12:09:55.219+02:00  INFO 26124 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T12:09:55.812+02:00  INFO 26124 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T12:09:55.867+02:00  INFO 26124 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T12:09:55.996+02:00  INFO 26124 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@2bcfba4d
+2026-04-28T12:09:55.999+02:00  INFO 26124 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T12:09:56.076+02:00  INFO 26124 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T12:09:57.211+02:00  INFO 26124 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T12:09:57.264+02:00  INFO 26124 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T12:09:57.354+02:00  INFO 26124 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T12:09:58.162+02:00  INFO 26124 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 4.608 seconds (process running for 5.538)
+2026-04-28T12:10:07.751+02:00  INFO 26124 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== COURSE_UPDATED ===]Course 3was updated
+2026-04-28T12:10:14.838+02:00  INFO 26124 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== COURSE_UPDATED ===]Course 1was updated
+2026-04-28T12:10:23.918+02:00  INFO 26124 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T12:10:23.921+02:00  INFO 26124 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T12:10:23.924+02:00  INFO 26124 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T15:52:43.450+02:00  INFO 27608 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 27608 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T15:52:43.456+02:00  INFO 27608 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T15:52:43.541+02:00  INFO 27608 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T15:52:44.727+02:00  INFO 27608 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T15:52:44.864+02:00  INFO 27608 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 5 JPA repository interfaces.
+2026-04-28T15:52:45.330+02:00  INFO 27608 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T15:52:45.392+02:00  INFO 27608 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T15:52:46.005+02:00  INFO 27608 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T15:52:46.066+02:00  INFO 27608 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T15:52:46.168+02:00  INFO 27608 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@4c195221
+2026-04-28T15:52:46.170+02:00  INFO 27608 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T15:52:46.217+02:00  INFO 27608 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T15:52:47.325+02:00  INFO 27608 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T15:52:47.371+02:00  INFO 27608 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T15:52:47.451+02:00  INFO 27608 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T15:52:48.188+02:00  INFO 27608 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 5.835 seconds (process running for 7.276)
+2026-04-28T15:52:52.318+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== USER_LOGGED_IN ===]User 2 logged in
+2026-04-28T15:52:56.657+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.658+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.714+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.715+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.729+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.730+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.743+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.744+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.760+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.761+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.761+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.762+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.775+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.776+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.776+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.777+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.790+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.790+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.791+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.791+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.804+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.805+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.806+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.807+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.820+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.821+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.822+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.822+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.836+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.837+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.838+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.838+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.851+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.851+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.852+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.852+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.866+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.867+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=2, clientId=2, startDate=15, price=450.00
+2026-04-28T15:52:56.868+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.868+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== REMINDER_SENT ===]REMINDER: orderId=3, clientId=2, startDate=20, price=60.00
+2026-04-28T15:52:56.877+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.CurrentDateService  : Skipped 12 days
+2026-04-28T15:52:56.878+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== DAYS_SKIPPED ===]Skipped 12 days
+2026-04-28T15:53:21.832+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Order created: 4
+2026-04-28T15:53:21.833+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_CREATED ===]Order created: 4
+2026-04-28T15:53:28.331+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Order paid: 4
+2026-04-28T15:53:28.332+02:00  INFO 27608 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_PAID ===]Order paid: 4
+2026-04-28T15:53:30.827+02:00  INFO 27608 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T15:53:30.832+02:00  INFO 27608 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T15:53:30.836+02:00  INFO 27608 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T15:53:35.046+02:00  INFO 15076 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 15076 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T15:53:35.049+02:00  INFO 15076 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T15:53:35.108+02:00  INFO 15076 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T15:53:35.696+02:00  INFO 15076 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T15:53:35.783+02:00  INFO 15076 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 5 JPA repository interfaces.
+2026-04-28T15:53:36.169+02:00  INFO 15076 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T15:53:36.228+02:00  INFO 15076 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T15:53:36.790+02:00  INFO 15076 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T15:53:36.828+02:00  INFO 15076 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T15:53:36.941+02:00  INFO 15076 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@78f9b6aa
+2026-04-28T15:53:36.943+02:00  INFO 15076 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T15:53:36.987+02:00  INFO 15076 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T15:53:38.031+02:00  INFO 15076 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T15:53:38.077+02:00  INFO 15076 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T15:53:38.166+02:00  INFO 15076 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T15:53:38.974+02:00  INFO 15076 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 4.537 seconds (process running for 5.446)
+2026-04-28T15:53:41.615+02:00  INFO 15076 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== USER_LOGGED_IN ===]User 1 logged in
+2026-04-28T15:53:57.288+02:00  INFO 15076 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== COURSE_UPDATED ===]Course 2was updated
+2026-04-28T15:54:16.267+02:00  INFO 15076 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== COURSE_UPDATED ===]Course 1was updated
+2026-04-28T15:54:17.642+02:00  INFO 15076 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T15:54:17.646+02:00  INFO 15076 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T15:54:17.649+02:00  INFO 15076 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T16:07:56.981+02:00  INFO 11132 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 11132 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T16:07:56.985+02:00  INFO 11132 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T16:07:57.050+02:00  INFO 11132 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T16:07:57.586+02:00  INFO 11132 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T16:07:57.666+02:00  INFO 11132 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2026-04-28T16:07:58.043+02:00  INFO 11132 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T16:07:58.109+02:00  INFO 11132 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T16:07:58.688+02:00  INFO 11132 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T16:07:58.726+02:00  INFO 11132 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T16:07:58.837+02:00  INFO 11132 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@263d6507
+2026-04-28T16:07:58.839+02:00  INFO 11132 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T16:07:58.897+02:00  INFO 11132 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T16:07:59.979+02:00  INFO 11132 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T16:08:00.035+02:00  INFO 11132 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T16:08:00.110+02:00  INFO 11132 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T16:08:00.834+02:00  INFO 11132 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 4.42 seconds (process running for 5.293)
+2026-04-28T16:08:06.890+02:00  INFO 11132 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== USER_LOGGED_IN ===]User 3 logged in
+2026-04-28T16:08:17.937+02:00  INFO 11132 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Order created: 5
+2026-04-28T16:08:17.937+02:00  INFO 11132 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_CREATED ===]Order created: 5
+2026-04-28T16:08:20.186+02:00  INFO 11132 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T16:08:20.194+02:00  INFO 11132 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T16:08:20.198+02:00  INFO 11132 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T16:08:28.018+02:00  INFO 26724 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 26724 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T16:08:28.022+02:00  INFO 26724 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T16:08:28.077+02:00  INFO 26724 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T16:08:28.594+02:00  INFO 26724 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T16:08:28.666+02:00  INFO 26724 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 5 JPA repository interfaces.
+2026-04-28T16:08:29.034+02:00  INFO 26724 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T16:08:29.093+02:00  INFO 26724 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T16:08:29.643+02:00  INFO 26724 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T16:08:29.681+02:00  INFO 26724 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T16:08:29.788+02:00  INFO 26724 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@1c4f2370
+2026-04-28T16:08:29.790+02:00  INFO 26724 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T16:08:29.835+02:00  INFO 26724 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T16:08:30.828+02:00  INFO 26724 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T16:08:30.873+02:00  INFO 26724 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T16:08:30.960+02:00  INFO 26724 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T16:08:31.739+02:00  INFO 26724 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 4.27 seconds (process running for 5.199)
+2026-04-28T16:08:36.687+02:00  INFO 26724 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== USER_LOGGED_IN ===]User 3 logged in
+2026-04-28T16:08:39.669+02:00  INFO 26724 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Order paid: 5
+2026-04-28T16:08:39.669+02:00  INFO 26724 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_PAID ===]Order paid: 5
+2026-04-28T16:08:42.726+02:00  INFO 26724 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T16:08:42.731+02:00  INFO 26724 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T16:08:42.734+02:00  INFO 26724 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T16:09:39.316+02:00  INFO 23464 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 23464 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T16:09:39.320+02:00  INFO 23464 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T16:09:39.373+02:00  INFO 23464 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T16:09:39.897+02:00  INFO 23464 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T16:09:39.978+02:00  INFO 23464 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 5 JPA repository interfaces.
+2026-04-28T16:09:40.366+02:00  INFO 23464 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T16:09:40.434+02:00  INFO 23464 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T16:09:40.998+02:00  INFO 23464 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T16:09:41.038+02:00  INFO 23464 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T16:09:41.161+02:00  INFO 23464 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@50273944
+2026-04-28T16:09:41.164+02:00  INFO 23464 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T16:09:41.227+02:00  INFO 23464 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T16:09:42.257+02:00  INFO 23464 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T16:09:42.328+02:00  INFO 23464 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T16:09:42.416+02:00  INFO 23464 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T16:09:43.280+02:00  INFO 23464 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 4.585 seconds (process running for 5.412)
+2026-04-28T16:09:48.414+02:00  INFO 23464 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== USER_LOGGED_IN ===] User 1 logged in
+2026-04-28T16:09:56.032+02:00  INFO 23464 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== COURSE_UPDATED ===] Course 1was updated
+2026-04-28T16:09:57.434+02:00  INFO 23464 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T16:09:57.439+02:00  INFO 23464 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T16:09:57.443+02:00  INFO 23464 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T16:10:01.311+02:00  INFO 19208 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 19208 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T16:10:01.314+02:00  INFO 19208 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T16:10:01.373+02:00  INFO 19208 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T16:10:01.871+02:00  INFO 19208 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T16:10:01.941+02:00  INFO 19208 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 5 JPA repository interfaces.
+2026-04-28T16:10:02.301+02:00  INFO 19208 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T16:10:02.362+02:00  INFO 19208 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T16:10:02.906+02:00  INFO 19208 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T16:10:02.944+02:00  INFO 19208 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T16:10:03.051+02:00  INFO 19208 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@2d21c99b
+2026-04-28T16:10:03.053+02:00  INFO 19208 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T16:10:03.099+02:00  INFO 19208 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T16:10:04.094+02:00  INFO 19208 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T16:10:04.141+02:00  INFO 19208 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T16:10:04.229+02:00  INFO 19208 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T16:10:05.020+02:00  INFO 19208 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 4.255 seconds (process running for 5.183)
+2026-04-28T16:10:08.042+02:00  INFO 19208 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== USER_LOGGED_IN ===] User 2 logged in
+2026-04-28T16:10:20.148+02:00  INFO 19208 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Order created: 1
+2026-04-28T16:10:20.148+02:00  INFO 19208 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_CREATED ===] Order created: 1
+2026-04-28T16:10:24.319+02:00  INFO 19208 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Order paid: 1
+2026-04-28T16:10:24.319+02:00  INFO 19208 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_PAID ===] Order paid: 1
+2026-04-28T16:10:30.831+02:00  INFO 19208 --- [lab06] [restartedMain] p.p.i.d.l.c.services.CurrentDateService  : Skipped 9 days
+2026-04-28T16:10:30.832+02:00  INFO 19208 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== DAYS_SKIPPED ===] Skipped 9 days
+2026-04-28T16:10:39.114+02:00  INFO 19208 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T16:10:39.119+02:00  INFO 19208 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T16:10:39.122+02:00  INFO 19208 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-28T16:32:29.224+02:00  INFO 22780 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 22780 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-04-28T16:32:29.228+02:00  INFO 22780 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-04-28T16:32:29.281+02:00  INFO 22780 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-28T16:32:29.855+02:00  INFO 22780 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-28T16:32:29.941+02:00  INFO 22780 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 5 JPA repository interfaces.
+2026-04-28T16:32:30.341+02:00  INFO 22780 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-28T16:32:30.416+02:00  INFO 22780 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-28T16:32:30.996+02:00  INFO 22780 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-28T16:32:31.034+02:00  INFO 22780 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-28T16:32:31.152+02:00  INFO 22780 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@264d3a46
+2026-04-28T16:32:31.154+02:00  INFO 22780 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-28T16:32:31.199+02:00  INFO 22780 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:sqlite:mydatabase.db]
+	Database driver: SQLite JDBC
+	Database dialect: SQLiteDialect
+	Database version: 3.50.3
+	Default catalog/schema: undefined/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: SERIALIZABLE [default SERIALIZABLE]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-28T16:32:32.258+02:00  INFO 22780 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-28T16:32:32.312+02:00  INFO 22780 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T16:32:32.400+02:00  INFO 22780 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-28T16:32:33.214+02:00  INFO 22780 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 4.559 seconds (process running for 5.568)
+2026-04-28T16:32:53.090+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== USER_LOGGED_IN ===] User 2 logged in
+2026-04-28T16:33:01.503+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Processing order: 1
+2026-04-28T16:33:01.504+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_DELIVERED ===] Processing order: 1
+2026-04-28T16:33:01.525+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Processing order: 1
+2026-04-28T16:33:01.526+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_DELIVERED ===] Processing order: 1
+2026-04-28T16:33:01.547+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Processing order: 1
+2026-04-28T16:33:01.548+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_DELIVERED ===] Processing order: 1
+2026-04-28T16:33:01.568+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Processing order: 1
+2026-04-28T16:33:01.569+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_DELIVERED ===] Processing order: 1
+2026-04-28T16:33:01.587+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Processing order: 1
+2026-04-28T16:33:01.588+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_DELIVERED ===] Processing order: 1
+2026-04-28T16:33:01.605+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.core.services.OrderService     : Processing order: 1
+2026-04-28T16:33:01.606+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_DELIVERED ===] Processing order: 1
+2026-04-28T16:33:01.702+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.c.services.CurrentDateService  : Skipped 14 days
+2026-04-28T16:33:01.702+02:00  INFO 22780 --- [lab06] [restartedMain] p.p.i.d.l.c.services.ActionLogService    : [=== DAYS_SKIPPED ===] Skipped 14 days
+2026-04-28T16:33:52.802+02:00  INFO 22780 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-28T16:33:52.812+02:00  INFO 22780 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-28T16:33:52.816+02:00  INFO 22780 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
