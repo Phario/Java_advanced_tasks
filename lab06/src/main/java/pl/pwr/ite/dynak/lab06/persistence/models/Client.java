@@ -8,6 +8,7 @@ import java.util.List;
 @Table(name = "clients")
 public class Client {
     @Id
+    @GeneratedValue
     private Long id;
     @Column(name = "name")
     private String name;

@@ -1,16 +1,14 @@
-package pl.pwr.ite.dynak.lab06.models;
+package pl.pwr.ite.dynak.lab06.persistence.models;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import pl.pwr.ite.dynak.lab06.utils.CourseTypes;
 
 @Entity
 @Table(name = "courses")
 public class Course {
     @Id
+    @GeneratedValue
     private Long id;
-    private String name;
     private CourseTypes type;
     private Double price;
 }
