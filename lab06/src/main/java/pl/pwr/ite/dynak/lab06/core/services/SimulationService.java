@@ -103,7 +103,7 @@ public class SimulationService {
     private void changeCoursePriceHandler() {
         IO.println("=== Change Course Price ===");
 
-        List<Course> courses = (List<Course>) courseRepository.findAll();
+        List<Course> courses = courseRepository.findAll();
 
         if (courses.isEmpty()) {
             IO.println("No courses found");

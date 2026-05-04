@@ -5,6 +5,10 @@ import pl.pwr.ite.dynak.lab06.persistence.enums.Actions;
 import pl.pwr.ite.dynak.lab06.persistence.models.Course;
 import pl.pwr.ite.dynak.lab06.persistence.repositories.CourseRepository;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
 @Service
 public class CourseService {
     private final CourseRepository courseRepository;
@@ -22,5 +26,9 @@ public class CourseService {
         } else {
             throw new IllegalArgumentException("Course with ID " + course.getId() + " does not exist");
         }
+    }
+
+    public List<Course> getCourses() {
+        return courseRepository.findAll();
     }
 }
