@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:controller="pl.pwr.ite.dynak.app.AppController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="500.0" prefWidth="400.0">
+         <children>
+            <Label alignment="CENTER" text="Input:" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="inputImageView" fitHeight="375.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="selectImageButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Select image">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="swapFilterButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Swap filter">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <TextField fx:id="filterPassAmountTextField" maxWidth="-Infinity" prefHeight="25.0" prefWidth="120.0" promptText="Filter pass amount">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="filterRadiusTextField" maxWidth="-Infinity" prefHeight="25.0" prefWidth="120.0" promptText="Filter radius">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <Button fx:id="runNativeButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Run native">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="runJavaButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Run java">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" prefHeight="500.0" prefWidth="400.0">
+         <children>
+            <Label text="Output:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="outputImageView" fitHeight="375.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+            <TextArea fx:id="logTextField" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+   </children>
+</HBox>

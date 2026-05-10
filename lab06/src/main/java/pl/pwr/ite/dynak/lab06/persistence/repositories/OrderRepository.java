@@ -19,4 +19,5 @@ public interface OrderRepository extends CrudRepository<Order, Long> {
 
     @EntityGraph(attributePaths = {"mealTypes"})
     List<Order> findByClientIdAndIsPaidFalse(Long clientId);
+    List<Order> findAllById(Long clientId);
 }

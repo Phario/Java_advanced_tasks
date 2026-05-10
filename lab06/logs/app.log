@@ -1,20 +1,23 @@
-2026-05-03T02:07:31.654+02:00  INFO 4997 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 4997 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:07:31.657+02:00  INFO 4997 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:07:31.681+02:00  INFO 4997 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:07:31.682+02:00  INFO 4997 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:07:32.036+02:00  INFO 4997 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:07:32.068+02:00  INFO 4997 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:07:32.352+02:00  INFO 4997 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:07:32.358+02:00  INFO 4997 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:07:32.358+02:00  INFO 4997 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:07:32.376+02:00  INFO 4997 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 694 ms
-2026-05-03T02:07:32.472+02:00  INFO 4997 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:07:32.511+02:00  INFO 4997 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:07:32.777+02:00  INFO 4997 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:07:32.796+02:00  INFO 4997 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:07:32.863+02:00  INFO 4997 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@ae5f47e
-2026-05-03T02:07:32.864+02:00  INFO 4997 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:07:32.888+02:00  INFO 4997 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-05-05T00:01:20.367+02:00  INFO 28268 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-05T00:01:20.382+02:00  INFO 28268 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-05T00:01:20.389+02:00  INFO 28268 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T00:01:20.394+02:00  INFO 28268 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-05T00:01:20.396+02:00  INFO 28268 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-05T00:01:24.396+02:00  INFO 30836 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 30836 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-05-05T00:01:24.399+02:00  INFO 30836 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-05-05T00:01:24.449+02:00  INFO 30836 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-05T00:01:24.449+02:00  INFO 30836 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-05T00:01:25.506+02:00  INFO 30836 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-05T00:01:25.571+02:00  INFO 30836 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 5 JPA repository interfaces.
+2026-05-05T00:01:26.050+02:00  INFO 30836 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-05T00:01:26.118+02:00  INFO 30836 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1668 ms
+2026-05-05T00:01:26.301+02:00  INFO 30836 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-05T00:01:26.381+02:00  INFO 30836 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-05T00:01:26.932+02:00  INFO 30836 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-05T00:01:26.979+02:00  INFO 30836 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-05T00:01:27.084+02:00  INFO 30836 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@739f0098
+2026-05-05T00:01:27.086+02:00  INFO 30836 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-05T00:01:27.137+02:00  INFO 30836 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:sqlite:mydatabase.db]
 	Database driver: SQLite JDBC
 	Database dialect: SQLiteDialect
@@ -26,83 +29,36 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-03T02:07:33.364+02:00  INFO 4997 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:07:33.384+02:00  INFO 4997 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:07:33.425+02:00  INFO 4997 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:07:33.753+02:00  WARN 4997 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:07:33.816+02:00  WARN 4997 --- [lab06] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to introspect Class [com.scalar.maven.webjar.ScalarController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@14dad5dc]
-2026-05-03T02:07:33.816+02:00  INFO 4997 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:07:33.818+02:00  INFO 4997 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:07:33.819+02:00  INFO 4997 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:07:33.820+02:00  INFO 4997 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2026-05-03T02:07:33.824+02:00  INFO 4997 --- [lab06] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-05-03T02:07:33.831+02:00 ERROR 4997 --- [lab06] [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to introspect Class [com.scalar.maven.webjar.ScalarController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@14dad5dc]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.6.jar:7.0.6]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.6.jar:7.0.6]
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.5.jar:4.0.5]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.5.jar:4.0.5]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.5.jar:4.0.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.5.jar:4.0.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
-	at pl.pwr.ite.dynak.lab06.Lab06Application.main(Lab06Application.java:11) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.scalar.maven.webjar.ScalarController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@14dad5dc]
-	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.6.jar:7.0.6]
-	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-7.0.6.jar:7.0.6]
-	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:74) ~[spring-core-7.0.6.jar:7.0.6]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:276) ~[spring-webmvc-7.0.6.jar:7.0.6]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:261) ~[spring-webmvc-7.0.6.jar:7.0.6]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:220) ~[spring-webmvc-7.0.6.jar:7.0.6]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:208) ~[spring-webmvc-7.0.6.jar:7.0.6]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:158) ~[spring-webmvc-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813) ~[spring-beans-7.0.6.jar:7.0.6]
-	... 21 common frames omitted
-Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/JsonProcessingException
-	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
-	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3010) ~[na:na]
-	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2329) ~[na:na]
-	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.6.jar:7.0.6]
-	... 30 common frames omitted
-Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.JsonProcessingException
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580) ~[na:na]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[na:na]
-	... 34 common frames omitted
-
-2026-05-03T02:10:00.848+02:00  INFO 5977 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 5977 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:10:00.850+02:00  INFO 5977 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:10:00.876+02:00  INFO 5977 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:10:00.876+02:00  INFO 5977 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:10:01.177+02:00  INFO 5977 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:10:01.205+02:00  INFO 5977 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:10:01.439+02:00  INFO 5977 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:10:01.445+02:00  INFO 5977 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:10:01.445+02:00  INFO 5977 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:10:01.461+02:00  INFO 5977 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 585 ms
-2026-05-03T02:10:01.544+02:00  INFO 5977 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:10:01.570+02:00  INFO 5977 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:10:01.806+02:00  INFO 5977 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:10:01.823+02:00  INFO 5977 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:10:01.887+02:00  INFO 5977 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@53c43c39
-2026-05-03T02:10:01.888+02:00  INFO 5977 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:10:01.908+02:00  INFO 5977 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-05-05T00:01:28.232+02:00  INFO 30836 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-05T00:01:28.281+02:00  INFO 30836 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T00:01:28.361+02:00  INFO 30836 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-05T00:01:29.255+02:00  WARN 30836 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-05T00:01:29.781+02:00  INFO 30836 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-05T00:01:29.789+02:00  INFO 30836 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 5.938 seconds (process running for 6.895)
+2026-05-05T00:01:29.792+02:00  WARN 30836 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-05T00:01:29.792+02:00  WARN 30836 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-05T00:01:29.793+02:00  INFO 30836 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-05T00:01:29.800+02:00  INFO 30836 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-05T00:01:29.816+02:00  INFO 30836 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T00:01:29.821+02:00  INFO 30836 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-05T00:01:29.824+02:00  INFO 30836 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-05T00:04:13.333+02:00  INFO 31204 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 31204 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-05-05T00:04:13.336+02:00  INFO 31204 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-05-05T00:04:13.410+02:00  INFO 31204 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-05T00:04:13.410+02:00  INFO 31204 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-05T00:04:14.556+02:00  INFO 31204 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-05T00:04:14.639+02:00  INFO 31204 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 5 JPA repository interfaces.
+2026-05-05T00:04:15.193+02:00  INFO 31204 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-05T00:04:15.209+02:00  INFO 31204 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-05T00:04:15.210+02:00  INFO 31204 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-05T00:04:15.263+02:00  INFO 31204 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1852 ms
+2026-05-05T00:04:15.508+02:00  INFO 31204 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-05T00:04:15.635+02:00  INFO 31204 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-05T00:04:16.389+02:00  INFO 31204 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-05T00:04:16.431+02:00  INFO 31204 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-05T00:04:16.535+02:00  INFO 31204 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@2c61a11b
+2026-05-05T00:04:16.537+02:00  INFO 31204 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-05T00:04:16.583+02:00  INFO 31204 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:sqlite:mydatabase.db]
 	Database driver: SQLite JDBC
 	Database dialect: SQLiteDialect
@@ -114,83 +70,39 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.JsonProc
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-03T02:10:02.336+02:00  INFO 5977 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:10:02.356+02:00  INFO 5977 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:10:02.395+02:00  INFO 5977 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:10:02.705+02:00  WARN 5977 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:10:02.768+02:00  WARN 5977 --- [lab06] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to introspect Class [com.scalar.maven.webjar.ScalarController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@14dad5dc]
-2026-05-03T02:10:02.769+02:00  INFO 5977 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:10:02.771+02:00  INFO 5977 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:10:02.772+02:00  INFO 5977 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:10:02.773+02:00  INFO 5977 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2026-05-03T02:10:02.777+02:00  INFO 5977 --- [lab06] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-05-03T02:10:02.783+02:00 ERROR 5977 --- [lab06] [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to introspect Class [com.scalar.maven.webjar.ScalarController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@14dad5dc]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.6.jar:7.0.6]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.6.jar:7.0.6]
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.5.jar:4.0.5]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.5.jar:4.0.5]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.5.jar:4.0.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.5.jar:4.0.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
-	at pl.pwr.ite.dynak.lab06.Lab06Application.main(Lab06Application.java:11) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.scalar.maven.webjar.ScalarController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@14dad5dc]
-	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.6.jar:7.0.6]
-	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-7.0.6.jar:7.0.6]
-	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:74) ~[spring-core-7.0.6.jar:7.0.6]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:276) ~[spring-webmvc-7.0.6.jar:7.0.6]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:261) ~[spring-webmvc-7.0.6.jar:7.0.6]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:220) ~[spring-webmvc-7.0.6.jar:7.0.6]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:208) ~[spring-webmvc-7.0.6.jar:7.0.6]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:158) ~[spring-webmvc-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) ~[spring-beans-7.0.6.jar:7.0.6]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813) ~[spring-beans-7.0.6.jar:7.0.6]
-	... 21 common frames omitted
-Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/JsonProcessingException
-	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
-	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3010) ~[na:na]
-	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2329) ~[na:na]
-	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.6.jar:7.0.6]
-	... 30 common frames omitted
-Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.JsonProcessingException
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580) ~[na:na]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[na:na]
-	... 34 common frames omitted
-
-2026-05-03T02:10:32.348+02:00  INFO 6295 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 6295 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:10:32.351+02:00  INFO 6295 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:10:32.378+02:00  INFO 6295 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:10:32.378+02:00  INFO 6295 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:10:32.676+02:00  INFO 6295 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:10:32.705+02:00  INFO 6295 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:10:32.957+02:00  INFO 6295 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:10:32.963+02:00  INFO 6295 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:10:32.964+02:00  INFO 6295 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:10:32.981+02:00  INFO 6295 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 602 ms
-2026-05-03T02:10:33.067+02:00  INFO 6295 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:10:33.092+02:00  INFO 6295 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:10:33.317+02:00  INFO 6295 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:10:33.334+02:00  INFO 6295 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:10:33.400+02:00  INFO 6295 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@7d2e297f
-2026-05-03T02:10:33.401+02:00  INFO 6295 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:10:33.421+02:00  INFO 6295 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-05-05T00:04:17.646+02:00  INFO 31204 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-05T00:04:17.693+02:00  INFO 31204 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T00:04:17.784+02:00  INFO 31204 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-05T00:04:18.601+02:00  WARN 31204 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-05T00:04:19.086+02:00  INFO 31204 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-05T00:04:19.094+02:00  INFO 31204 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 6.441 seconds (process running for 7.731)
+2026-05-05T00:04:19.097+02:00  WARN 31204 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-05T00:04:19.097+02:00  WARN 31204 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-05T00:11:24.407+02:00  INFO 31204 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-05T00:11:24.407+02:00  INFO 31204 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-05T00:11:24.408+02:00  INFO 31204 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-05T00:11:28.910+02:00  INFO 31204 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-05T00:11:28.917+02:00  INFO 31204 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-05T00:11:28.921+02:00  INFO 31204 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T00:11:28.925+02:00  INFO 31204 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-05T00:11:28.927+02:00  INFO 31204 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-05T00:16:38.299+02:00  INFO 21796 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 21796 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-05-05T00:16:38.308+02:00  INFO 21796 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-05-05T00:16:38.429+02:00  INFO 21796 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-05T00:16:38.429+02:00  INFO 21796 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-05T00:16:39.607+02:00  INFO 21796 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-05T00:16:39.681+02:00  INFO 21796 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 5 JPA repository interfaces.
+2026-05-05T00:16:40.275+02:00  INFO 21796 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-05T00:16:40.293+02:00  INFO 21796 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-05T00:16:40.294+02:00  INFO 21796 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-05T00:16:40.370+02:00  INFO 21796 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1940 ms
+2026-05-05T00:16:40.547+02:00  INFO 21796 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-05T00:16:40.606+02:00  INFO 21796 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-05T00:16:41.100+02:00  INFO 21796 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-05T00:16:41.136+02:00  INFO 21796 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-05T00:16:41.225+02:00  INFO 21796 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@5774d3ae
+2026-05-05T00:16:41.227+02:00  INFO 21796 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-05T00:16:41.283+02:00  INFO 21796 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:sqlite:mydatabase.db]
 	Database driver: SQLite JDBC
 	Database dialect: SQLiteDialect
@@ -202,37 +114,42 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.JsonProc
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-03T02:10:33.925+02:00  INFO 6295 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:10:33.951+02:00  INFO 6295 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:10:33.989+02:00  INFO 6295 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:10:34.295+02:00  WARN 6295 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:10:34.467+02:00  INFO 6295 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T02:10:34.470+02:00  INFO 6295 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.371 seconds (process running for 2.699)
-2026-05-03T02:10:56.225+02:00  INFO 6295 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T02:10:56.225+02:00  INFO 6295 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T02:10:56.226+02:00  INFO 6295 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-03T02:12:21.356+02:00  INFO 6295 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T02:12:21.357+02:00  INFO 6295 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T02:12:21.359+02:00  INFO 6295 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:12:21.361+02:00  INFO 6295 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:12:21.361+02:00  INFO 6295 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:12:46.859+02:00  INFO 7068 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 7068 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:12:46.861+02:00  INFO 7068 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:12:46.885+02:00  INFO 7068 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:12:46.886+02:00  INFO 7068 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:12:47.197+02:00  INFO 7068 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:12:47.226+02:00  INFO 7068 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:12:47.440+02:00  INFO 7068 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:12:47.446+02:00  INFO 7068 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:12:47.446+02:00  INFO 7068 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:12:47.468+02:00  INFO 7068 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 582 ms
-2026-05-03T02:12:47.546+02:00  INFO 7068 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:12:47.569+02:00  INFO 7068 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:12:47.798+02:00  INFO 7068 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:12:47.814+02:00  INFO 7068 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:12:47.875+02:00  INFO 7068 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@77998060
-2026-05-03T02:12:47.876+02:00  INFO 7068 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:12:47.896+02:00  INFO 7068 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-05-05T00:16:42.220+02:00  INFO 21796 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-05T00:16:42.264+02:00  INFO 21796 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T00:16:42.348+02:00  INFO 21796 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-05T00:16:43.106+02:00  WARN 21796 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-05T00:16:43.603+02:00  INFO 21796 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-05T00:16:43.611+02:00  INFO 21796 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 5.856 seconds (process running for 6.883)
+2026-05-05T00:16:43.614+02:00  WARN 21796 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-05T00:16:43.615+02:00  WARN 21796 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-05T00:16:50.918+02:00  INFO 21796 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-05T00:16:50.918+02:00  INFO 21796 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-05T00:16:50.919+02:00  INFO 21796 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-05T00:16:58.022+02:00  INFO 21796 --- [lab06] [http-nio-8080-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 267 ms
+2026-05-05T00:17:28.190+02:00  INFO 21796 --- [lab06] [http-nio-8080-exec-4] p.p.i.d.l.core.services.OrderService     : Order created: 3
+2026-05-05T00:17:28.191+02:00  INFO 21796 --- [lab06] [http-nio-8080-exec-4] p.p.i.d.l.c.services.ActionLogService    : [=== ORDER_CREATED ===] Order created: 3
+2026-05-05T00:25:07.896+02:00  INFO 21796 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-05T00:25:07.903+02:00  INFO 21796 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-05T00:25:07.917+02:00  INFO 21796 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T00:25:07.924+02:00  INFO 21796 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-05T00:25:07.927+02:00  INFO 21796 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-05T00:33:40.724+02:00  INFO 13044 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 13044 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-05-05T00:33:40.728+02:00  INFO 13044 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-05-05T00:33:40.784+02:00  INFO 13044 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-05T00:33:40.785+02:00  INFO 13044 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-05T00:33:41.702+02:00  INFO 13044 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-05T00:33:41.775+02:00  INFO 13044 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 5 JPA repository interfaces.
+2026-05-05T00:33:42.337+02:00  INFO 13044 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-05T00:33:42.353+02:00  INFO 13044 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-05T00:33:42.354+02:00  INFO 13044 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-05T00:33:42.407+02:00  INFO 13044 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1622 ms
+2026-05-05T00:33:42.587+02:00  INFO 13044 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-05T00:33:42.645+02:00  INFO 13044 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-05T00:33:43.416+02:00  INFO 13044 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-05T00:33:43.459+02:00  INFO 13044 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-05T00:33:43.569+02:00  INFO 13044 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@61ebebb6
+2026-05-05T00:33:43.571+02:00  INFO 13044 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-05T00:33:43.629+02:00  INFO 13044 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:sqlite:mydatabase.db]
 	Database driver: SQLite JDBC
 	Database dialect: SQLiteDialect
@@ -244,37 +161,40 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.JsonProc
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-03T02:12:48.374+02:00  INFO 7068 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:12:48.397+02:00  INFO 7068 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:12:48.437+02:00  INFO 7068 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:12:48.754+02:00  WARN 7068 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:12:48.899+02:00  INFO 7068 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T02:12:48.902+02:00  INFO 7068 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.253 seconds (process running for 2.57)
-2026-05-03T02:12:58.897+02:00  INFO 7068 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T02:12:58.897+02:00  INFO 7068 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T02:12:58.898+02:00  INFO 7068 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-03T02:13:58.365+02:00  INFO 7068 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T02:13:58.366+02:00  INFO 7068 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T02:13:58.369+02:00  INFO 7068 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:13:58.370+02:00  INFO 7068 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:13:58.371+02:00  INFO 7068 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:14:00.067+02:00  INFO 7588 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 7588 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:14:00.069+02:00  INFO 7588 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:14:00.101+02:00  INFO 7588 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:14:00.102+02:00  INFO 7588 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:14:00.394+02:00  INFO 7588 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:14:00.423+02:00  INFO 7588 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:14:00.636+02:00  INFO 7588 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:14:00.642+02:00  INFO 7588 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:14:00.643+02:00  INFO 7588 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:14:00.660+02:00  INFO 7588 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 557 ms
-2026-05-03T02:14:00.748+02:00  INFO 7588 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:14:00.775+02:00  INFO 7588 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:14:01.006+02:00  INFO 7588 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:14:01.022+02:00  INFO 7588 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:14:01.086+02:00  INFO 7588 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@37a3a155
-2026-05-03T02:14:01.087+02:00  INFO 7588 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:14:01.108+02:00  INFO 7588 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-05-05T00:33:44.801+02:00  INFO 13044 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-05T00:33:44.859+02:00  INFO 13044 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T00:33:44.937+02:00  INFO 13044 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-05T00:33:45.669+02:00  WARN 13044 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-05T00:33:46.219+02:00  INFO 13044 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-05T00:33:46.226+02:00  INFO 13044 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 6.097 seconds (process running for 7.026)
+2026-05-05T00:33:46.228+02:00  WARN 13044 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-05T00:33:46.229+02:00  WARN 13044 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-05T00:37:21.150+02:00  INFO 13044 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-05T00:37:21.150+02:00  INFO 13044 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-05T00:37:21.151+02:00  INFO 13044 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-05T00:37:21.767+02:00  INFO 13044 --- [lab06] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 254 ms
+2026-05-05T00:39:06.030+02:00  INFO 13044 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-05T00:39:06.037+02:00  INFO 13044 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-05T00:39:06.041+02:00  INFO 13044 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T00:39:06.044+02:00  INFO 13044 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-05T00:39:06.047+02:00  INFO 13044 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-05T01:56:33.123+02:00  INFO 10152 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 10152 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-05-05T01:56:33.127+02:00  INFO 10152 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-05-05T01:56:33.184+02:00  INFO 10152 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-05T01:56:33.184+02:00  INFO 10152 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-05T01:56:34.190+02:00  INFO 10152 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-05T01:56:34.263+02:00  INFO 10152 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 5 JPA repository interfaces.
+2026-05-05T01:56:34.784+02:00  INFO 10152 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-05T01:56:34.799+02:00  INFO 10152 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-05T01:56:34.799+02:00  INFO 10152 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-05T01:56:34.856+02:00  INFO 10152 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1671 ms
+2026-05-05T01:56:35.058+02:00  INFO 10152 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-05T01:56:35.136+02:00  INFO 10152 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-05T01:56:35.713+02:00  INFO 10152 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-05T01:56:35.755+02:00  INFO 10152 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-05T01:56:35.852+02:00  INFO 10152 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@5c4ea629
+2026-05-05T01:56:35.854+02:00  INFO 10152 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-05T01:56:35.908+02:00  INFO 10152 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:sqlite:mydatabase.db]
 	Database driver: SQLite JDBC
 	Database dialect: SQLiteDialect
@@ -286,37 +206,40 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.JsonProc
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-03T02:14:01.601+02:00  INFO 7588 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:14:01.624+02:00  INFO 7588 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:14:01.674+02:00  INFO 7588 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:14:01.994+02:00  WARN 7588 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:14:02.140+02:00  INFO 7588 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T02:14:02.142+02:00  INFO 7588 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.3 seconds (process running for 2.602)
-2026-05-03T02:14:05.089+02:00  INFO 7588 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T02:14:05.089+02:00  INFO 7588 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T02:14:05.090+02:00  INFO 7588 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-03T02:14:22.040+02:00  INFO 7588 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T02:14:22.042+02:00  INFO 7588 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T02:14:22.044+02:00  INFO 7588 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:14:22.046+02:00  INFO 7588 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:14:22.047+02:00  INFO 7588 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:14:23.254+02:00  INFO 7925 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 7925 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:14:23.256+02:00  INFO 7925 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:14:23.280+02:00  INFO 7925 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:14:23.280+02:00  INFO 7925 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:14:23.592+02:00  INFO 7925 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:14:23.625+02:00  INFO 7925 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:14:23.851+02:00  INFO 7925 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:14:23.857+02:00  INFO 7925 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:14:23.858+02:00  INFO 7925 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:14:23.875+02:00  INFO 7925 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 594 ms
-2026-05-03T02:14:23.967+02:00  INFO 7925 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:14:23.992+02:00  INFO 7925 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:14:24.221+02:00  INFO 7925 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:14:24.238+02:00  INFO 7925 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:14:24.301+02:00  INFO 7925 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@77998060
-2026-05-03T02:14:24.302+02:00  INFO 7925 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:14:24.322+02:00  INFO 7925 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-05-05T01:56:37.050+02:00  INFO 10152 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-05T01:56:37.106+02:00  INFO 10152 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T01:56:37.197+02:00  INFO 10152 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-05T01:56:38.010+02:00  WARN 10152 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-05T01:56:38.521+02:00  INFO 10152 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-05T01:56:38.528+02:00  INFO 10152 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 5.955 seconds (process running for 6.961)
+2026-05-05T01:56:38.532+02:00  WARN 10152 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-05T01:56:38.532+02:00  WARN 10152 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-05T01:56:42.803+02:00  INFO 10152 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-05T01:56:42.803+02:00  INFO 10152 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-05T01:56:42.805+02:00  INFO 10152 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-05T01:56:43.614+02:00  INFO 10152 --- [lab06] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 286 ms
+2026-05-05T01:57:18.508+02:00  INFO 10152 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-05T01:57:18.515+02:00  INFO 10152 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-05T01:57:18.522+02:00  INFO 10152 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T01:57:18.525+02:00  INFO 10152 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-05T01:57:18.527+02:00  INFO 10152 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-05T16:06:21.136+02:00  INFO 32144 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 32144 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-05-05T16:06:21.143+02:00  INFO 32144 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-05-05T16:06:21.255+02:00  INFO 32144 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-05T16:06:21.255+02:00  INFO 32144 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-05T16:06:23.206+02:00  INFO 32144 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-05T16:06:23.373+02:00  INFO 32144 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 5 JPA repository interfaces.
+2026-05-05T16:06:24.558+02:00  INFO 32144 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-05T16:06:24.588+02:00  INFO 32144 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-05T16:06:24.589+02:00  INFO 32144 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-05T16:06:24.706+02:00  INFO 32144 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3450 ms
+2026-05-05T16:06:25.112+02:00  INFO 32144 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-05T16:06:25.268+02:00  INFO 32144 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-05T16:06:26.681+02:00  INFO 32144 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-05T16:06:26.796+02:00  INFO 32144 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-05T16:06:27.057+02:00  INFO 32144 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@36e88a02
+2026-05-05T16:06:27.061+02:00  INFO 32144 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-05T16:06:27.181+02:00  INFO 32144 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:sqlite:mydatabase.db]
 	Database driver: SQLite JDBC
 	Database dialect: SQLiteDialect
@@ -328,37 +251,40 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.JsonProc
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-03T02:14:24.804+02:00  INFO 7925 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:14:24.827+02:00  INFO 7925 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:14:24.871+02:00  INFO 7925 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:14:25.190+02:00  WARN 7925 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:14:25.342+02:00  INFO 7925 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T02:14:25.345+02:00  INFO 7925 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.318 seconds (process running for 2.613)
-2026-05-03T02:14:34.057+02:00  INFO 7925 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T02:14:34.057+02:00  INFO 7925 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T02:14:34.058+02:00  INFO 7925 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-03T02:16:20.539+02:00  INFO 7925 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T02:16:20.541+02:00  INFO 7925 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T02:16:20.543+02:00  INFO 7925 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:16:20.544+02:00  INFO 7925 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:16:20.545+02:00  INFO 7925 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:16:27.803+02:00  INFO 8737 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 8737 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:16:27.804+02:00  INFO 8737 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:16:27.829+02:00  INFO 8737 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:16:27.829+02:00  INFO 8737 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:16:28.114+02:00  INFO 8737 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:16:28.140+02:00  INFO 8737 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:16:28.347+02:00  INFO 8737 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:16:28.354+02:00  INFO 8737 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:16:28.354+02:00  INFO 8737 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:16:28.370+02:00  INFO 8737 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 540 ms
-2026-05-03T02:16:28.451+02:00  INFO 8737 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:16:28.475+02:00  INFO 8737 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:16:28.694+02:00  INFO 8737 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:16:28.710+02:00  INFO 8737 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:16:28.772+02:00  INFO 8737 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@56c5d331
-2026-05-03T02:16:28.773+02:00  INFO 8737 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:16:28.792+02:00  INFO 8737 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-05-05T16:06:29.806+02:00  INFO 32144 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-05T16:06:29.910+02:00  INFO 32144 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T16:06:30.121+02:00  INFO 32144 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-05T16:06:32.085+02:00  WARN 32144 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-05T16:06:33.420+02:00  INFO 32144 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-05T16:06:33.436+02:00  INFO 32144 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 13.419 seconds (process running for 15.228)
+2026-05-05T16:06:33.443+02:00  WARN 32144 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-05T16:06:33.443+02:00  WARN 32144 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-05T16:06:46.261+02:00  INFO 32144 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-05T16:06:46.261+02:00  INFO 32144 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-05T16:06:46.264+02:00  INFO 32144 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-05-05T16:06:47.847+02:00  INFO 32144 --- [lab06] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 726 ms
+2026-05-05T16:27:18.472+02:00  INFO 32144 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-05T16:27:18.488+02:00  INFO 32144 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-05T16:27:18.497+02:00  INFO 32144 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T16:27:18.505+02:00  INFO 32144 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-05T16:27:18.510+02:00  INFO 32144 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-05T21:27:34.208+02:00  INFO 32368 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 32368 (C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06\target\classes started by grzed in C:\Users\grzed\IdeaProjects\gdyn280963_javatz_2026\lab06)
+2026-05-05T21:27:34.212+02:00  INFO 32368 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
+2026-05-05T21:27:34.272+02:00  INFO 32368 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-05T21:27:34.272+02:00  INFO 32368 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-05T21:27:35.342+02:00  INFO 32368 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-05T21:27:35.423+02:00  INFO 32368 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 5 JPA repository interfaces.
+2026-05-05T21:27:36.164+02:00  INFO 32368 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-05T21:27:36.181+02:00  INFO 32368 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-05T21:27:36.182+02:00  INFO 32368 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-05T21:27:36.257+02:00  INFO 32368 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1984 ms
+2026-05-05T21:27:36.573+02:00  INFO 32368 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-05T21:27:36.684+02:00  INFO 32368 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-05T21:27:37.641+02:00  INFO 32368 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-05T21:27:37.705+02:00  INFO 32368 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-05T21:27:37.841+02:00  INFO 32368 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@58ede3d0
+2026-05-05T21:27:37.844+02:00  INFO 32368 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-05T21:27:37.947+02:00  INFO 32368 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:sqlite:mydatabase.db]
 	Database driver: SQLite JDBC
 	Database dialect: SQLiteDialect
@@ -370,324 +296,20 @@ Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.JsonProc
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-03T02:16:29.271+02:00  INFO 8737 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:16:29.293+02:00  INFO 8737 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:16:29.337+02:00  INFO 8737 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:16:29.653+02:00  WARN 8737 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:16:29.799+02:00  INFO 8737 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T02:16:29.801+02:00  INFO 8737 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.213 seconds (process running for 2.51)
-2026-05-03T02:16:45.353+02:00  INFO 8737 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T02:16:45.353+02:00  INFO 8737 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T02:16:45.354+02:00  INFO 8737 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-03T02:19:50.960+02:00  INFO 8737 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T02:19:50.961+02:00  INFO 8737 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T02:19:50.963+02:00  INFO 8737 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:19:50.965+02:00  INFO 8737 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:19:50.965+02:00  INFO 8737 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:19:52.758+02:00  INFO 10215 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 10215 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:19:52.759+02:00  INFO 10215 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:19:52.789+02:00  INFO 10215 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:19:52.789+02:00  INFO 10215 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:19:53.097+02:00  INFO 10215 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:19:53.127+02:00  INFO 10215 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:19:53.348+02:00  INFO 10215 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:19:53.355+02:00  INFO 10215 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:19:53.355+02:00  INFO 10215 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:19:53.373+02:00  INFO 10215 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 584 ms
-2026-05-03T02:19:53.461+02:00  INFO 10215 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:19:53.485+02:00  INFO 10215 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:19:53.709+02:00  INFO 10215 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:19:53.726+02:00  INFO 10215 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:19:53.788+02:00  INFO 10215 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@282eeb64
-2026-05-03T02:19:53.789+02:00  INFO 10215 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:19:53.809+02:00  INFO 10215 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:sqlite:mydatabase.db]
-	Database driver: SQLite JDBC
-	Database dialect: SQLiteDialect
-	Database version: 3.50.3
-	Default catalog/schema: undefined/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: SERIALIZABLE [default SERIALIZABLE]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-05-03T02:19:54.295+02:00  INFO 10215 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:19:54.314+02:00  INFO 10215 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:19:54.361+02:00  INFO 10215 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:19:54.681+02:00  WARN 10215 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:19:54.832+02:00  INFO 10215 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T02:19:54.835+02:00  INFO 10215 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.3 seconds (process running for 2.606)
-2026-05-03T02:19:59.901+02:00  INFO 10215 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T02:19:59.901+02:00  INFO 10215 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T02:19:59.902+02:00  INFO 10215 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-03T02:21:35.769+02:00  INFO 10215 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T02:21:35.770+02:00  INFO 10215 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T02:21:35.772+02:00  INFO 10215 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:21:35.773+02:00  INFO 10215 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:21:35.774+02:00  INFO 10215 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:21:49.076+02:00  INFO 10754 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 10754 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:21:49.078+02:00  INFO 10754 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:21:49.104+02:00  INFO 10754 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:21:49.104+02:00  INFO 10754 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:21:49.431+02:00  INFO 10754 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:21:49.464+02:00  INFO 10754 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:21:49.715+02:00  INFO 10754 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:21:49.725+02:00  INFO 10754 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:21:49.725+02:00  INFO 10754 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:21:49.747+02:00  INFO 10754 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 643 ms
-2026-05-03T02:21:49.835+02:00  INFO 10754 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:21:49.860+02:00  INFO 10754 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:21:50.085+02:00  INFO 10754 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:21:50.102+02:00  INFO 10754 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:21:50.169+02:00  INFO 10754 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@54d3ea90
-2026-05-03T02:21:50.170+02:00  INFO 10754 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:21:50.191+02:00  INFO 10754 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:sqlite:mydatabase.db]
-	Database driver: SQLite JDBC
-	Database dialect: SQLiteDialect
-	Database version: 3.50.3
-	Default catalog/schema: undefined/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: SERIALIZABLE [default SERIALIZABLE]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-05-03T02:21:50.706+02:00  INFO 10754 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:21:50.726+02:00  INFO 10754 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:21:50.777+02:00  INFO 10754 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:21:51.136+02:00  WARN 10754 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:21:51.295+02:00  INFO 10754 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T02:21:51.298+02:00  INFO 10754 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.438 seconds (process running for 2.776)
-2026-05-03T02:21:53.100+02:00  INFO 10754 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T02:21:53.101+02:00  INFO 10754 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T02:21:53.101+02:00  INFO 10754 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-03T02:24:22.374+02:00  INFO 10754 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T02:24:22.376+02:00  INFO 10754 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T02:24:22.378+02:00  INFO 10754 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:24:22.379+02:00  INFO 10754 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:24:22.380+02:00  INFO 10754 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:24:25.457+02:00  INFO 11611 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 11611 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:24:25.459+02:00  INFO 11611 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:24:25.483+02:00  INFO 11611 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:24:25.483+02:00  INFO 11611 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:24:25.980+02:00  INFO 11611 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:24:26.012+02:00  INFO 11611 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:24:26.277+02:00  INFO 11611 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:24:26.287+02:00  INFO 11611 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:24:26.287+02:00  INFO 11611 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:24:26.329+02:00  INFO 11611 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 846 ms
-2026-05-03T02:24:26.447+02:00  INFO 11611 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:24:26.480+02:00  INFO 11611 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:24:26.731+02:00  INFO 11611 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:24:26.751+02:00  INFO 11611 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:24:26.820+02:00  INFO 11611 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@5d6f87b1
-2026-05-03T02:24:26.821+02:00  INFO 11611 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:24:26.841+02:00  INFO 11611 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:sqlite:mydatabase.db]
-	Database driver: SQLite JDBC
-	Database dialect: SQLiteDialect
-	Database version: 3.50.3
-	Default catalog/schema: undefined/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: SERIALIZABLE [default SERIALIZABLE]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-05-03T02:24:27.298+02:00  INFO 11611 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:24:27.318+02:00  INFO 11611 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:24:27.355+02:00  INFO 11611 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:24:27.743+02:00  WARN 11611 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:24:27.973+02:00  INFO 11611 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T02:24:27.977+02:00  INFO 11611 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.754 seconds (process running for 3.107)
-2026-05-03T02:24:27.978+02:00  WARN 11611 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
-2026-05-03T02:24:27.978+02:00  WARN 11611 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
-2026-05-03T02:24:35.678+02:00  INFO 11611 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T02:24:35.678+02:00  INFO 11611 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T02:24:35.679+02:00  INFO 11611 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-03T02:25:18.347+02:00  INFO 11611 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T02:25:18.349+02:00  INFO 11611 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T02:25:18.351+02:00  INFO 11611 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:25:18.353+02:00  INFO 11611 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:25:18.354+02:00  INFO 11611 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:25:20.183+02:00  INFO 12110 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 12110 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:25:20.184+02:00  INFO 12110 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:25:20.210+02:00  INFO 12110 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:25:20.210+02:00  INFO 12110 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:25:20.633+02:00  INFO 12110 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:25:20.666+02:00  INFO 12110 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:25:20.892+02:00  INFO 12110 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:25:20.899+02:00  INFO 12110 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:25:20.900+02:00  INFO 12110 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:25:20.919+02:00  INFO 12110 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 708 ms
-2026-05-03T02:25:21.011+02:00  INFO 12110 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:25:21.041+02:00  INFO 12110 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:25:21.291+02:00  INFO 12110 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:25:21.309+02:00  INFO 12110 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:25:21.387+02:00  INFO 12110 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@4cb3af73
-2026-05-03T02:25:21.388+02:00  INFO 12110 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:25:21.410+02:00  INFO 12110 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:sqlite:mydatabase.db]
-	Database driver: SQLite JDBC
-	Database dialect: SQLiteDialect
-	Database version: 3.50.3
-	Default catalog/schema: undefined/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: SERIALIZABLE [default SERIALIZABLE]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-05-03T02:25:21.887+02:00  INFO 12110 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:25:21.907+02:00  INFO 12110 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:25:21.945+02:00  INFO 12110 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:25:22.337+02:00  WARN 12110 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:25:22.537+02:00  INFO 12110 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T02:25:22.542+02:00  INFO 12110 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.596 seconds (process running for 2.912)
-2026-05-03T02:25:22.543+02:00  WARN 12110 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
-2026-05-03T02:25:22.543+02:00  WARN 12110 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
-2026-05-03T02:25:23.886+02:00  INFO 12110 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T02:25:23.887+02:00  INFO 12110 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T02:25:23.887+02:00  INFO 12110 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-03T02:26:36.666+02:00  INFO 12110 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T02:26:36.667+02:00  INFO 12110 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T02:26:36.670+02:00  INFO 12110 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:26:36.671+02:00  INFO 12110 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:26:36.672+02:00  INFO 12110 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:26:38.477+02:00  INFO 12536 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 12536 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:26:38.479+02:00  INFO 12536 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:26:38.506+02:00  INFO 12536 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:26:38.506+02:00  INFO 12536 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:26:38.888+02:00  INFO 12536 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:26:38.915+02:00  INFO 12536 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:26:39.143+02:00  INFO 12536 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:26:39.149+02:00  INFO 12536 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:26:39.150+02:00  INFO 12536 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:26:39.166+02:00  INFO 12536 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 660 ms
-2026-05-03T02:26:39.242+02:00  INFO 12536 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:26:39.267+02:00  INFO 12536 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:26:39.488+02:00  INFO 12536 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:26:39.505+02:00  INFO 12536 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:26:39.569+02:00  INFO 12536 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@351e2597
-2026-05-03T02:26:39.570+02:00  INFO 12536 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:26:39.591+02:00  INFO 12536 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:sqlite:mydatabase.db]
-	Database driver: SQLite JDBC
-	Database dialect: SQLiteDialect
-	Database version: 3.50.3
-	Default catalog/schema: undefined/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: SERIALIZABLE [default SERIALIZABLE]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-05-03T02:26:40.060+02:00  INFO 12536 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:26:40.082+02:00  INFO 12536 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:26:40.121+02:00  INFO 12536 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:26:40.543+02:00  WARN 12536 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:26:40.766+02:00  INFO 12536 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T02:26:40.770+02:00  INFO 12536 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.534 seconds (process running for 2.844)
-2026-05-03T02:26:40.771+02:00  WARN 12536 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
-2026-05-03T02:26:40.771+02:00  WARN 12536 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
-2026-05-03T02:26:47.822+02:00  INFO 12536 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T02:26:47.823+02:00  INFO 12536 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T02:26:47.824+02:00  INFO 12536 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-03T02:26:55.721+02:00  INFO 12536 --- [lab06] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 85 ms
-2026-05-03T02:27:55.284+02:00  INFO 12536 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T02:27:55.285+02:00  INFO 12536 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T02:27:55.288+02:00  INFO 12536 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:27:55.290+02:00  INFO 12536 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T02:27:55.290+02:00  INFO 12536 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T02:27:57.117+02:00  INFO 12980 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 12980 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T02:27:57.119+02:00  INFO 12980 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T02:27:57.148+02:00  INFO 12980 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T02:27:57.148+02:00  INFO 12980 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T02:27:57.518+02:00  INFO 12980 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T02:27:57.545+02:00  INFO 12980 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 5 JPA repository interfaces.
-2026-05-03T02:27:57.770+02:00  INFO 12980 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T02:27:57.777+02:00  INFO 12980 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T02:27:57.777+02:00  INFO 12980 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T02:27:57.793+02:00  INFO 12980 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 644 ms
-2026-05-03T02:27:57.870+02:00  INFO 12980 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T02:27:57.894+02:00  INFO 12980 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T02:27:58.112+02:00  INFO 12980 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T02:27:58.128+02:00  INFO 12980 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T02:27:58.192+02:00  INFO 12980 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@72413441
-2026-05-03T02:27:58.193+02:00  INFO 12980 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T02:27:58.214+02:00  INFO 12980 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:sqlite:mydatabase.db]
-	Database driver: SQLite JDBC
-	Database dialect: SQLiteDialect
-	Database version: 3.50.3
-	Default catalog/schema: undefined/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: SERIALIZABLE [default SERIALIZABLE]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-05-03T02:27:58.736+02:00  INFO 12980 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T02:27:58.758+02:00  INFO 12980 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T02:27:58.798+02:00  INFO 12980 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T02:27:59.204+02:00  WARN 12980 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T02:27:59.414+02:00  INFO 12980 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T02:27:59.418+02:00  INFO 12980 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.512 seconds (process running for 2.825)
-2026-05-03T02:27:59.420+02:00  WARN 12980 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
-2026-05-03T02:27:59.420+02:00  WARN 12980 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
-2026-05-03T02:28:01.760+02:00  INFO 12980 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T02:28:01.760+02:00  INFO 12980 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T02:28:01.761+02:00  INFO 12980 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-03T02:28:01.873+02:00  INFO 12980 --- [lab06] [http-nio-8080-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 90 ms
-2026-05-03T03:43:19.279+02:00  INFO 12980 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T03:43:19.281+02:00  INFO 12980 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T03:43:19.283+02:00  INFO 12980 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T03:43:19.285+02:00  INFO 12980 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T03:43:19.285+02:00  INFO 12980 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-03T03:43:21.109+02:00  INFO 20718 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Starting Lab06Application using Java 25.0.2 with PID 20718 (/home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06/target/classes started by phario in /home/phario/IdeaProjects/gdyn280963_javatz_2026/lab06)
-2026-05-03T03:43:21.111+02:00  INFO 20718 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : No active profile set, falling back to 1 default profile: "default"
-2026-05-03T03:43:21.139+02:00  INFO 20718 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-03T03:43:21.140+02:00  INFO 20718 --- [lab06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-03T03:43:21.599+02:00  INFO 20718 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-03T03:43:21.631+02:00  INFO 20718 --- [lab06] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 5 JPA repository interfaces.
-2026-05-03T03:43:21.883+02:00  INFO 20718 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-05-03T03:43:21.891+02:00  INFO 20718 --- [lab06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-03T03:43:21.891+02:00  INFO 20718 --- [lab06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
-2026-05-03T03:43:21.910+02:00  INFO 20718 --- [lab06] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 770 ms
-2026-05-03T03:43:21.998+02:00  INFO 20718 --- [lab06] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-05-03T03:43:22.029+02:00  INFO 20718 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
-2026-05-03T03:43:22.296+02:00  INFO 20718 --- [lab06] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-03T03:43:22.314+02:00  INFO 20718 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-03T03:43:22.396+02:00  INFO 20718 --- [lab06] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@5b687a69
-2026-05-03T03:43:22.397+02:00  INFO 20718 --- [lab06] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-03T03:43:22.419+02:00  INFO 20718 --- [lab06] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:sqlite:mydatabase.db]
-	Database driver: SQLite JDBC
-	Database dialect: SQLiteDialect
-	Database version: 3.50.3
-	Default catalog/schema: undefined/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: SERIALIZABLE [default SERIALIZABLE]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-05-03T03:43:22.952+02:00  INFO 20718 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-03T03:43:22.975+02:00  INFO 20718 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T03:43:23.020+02:00  INFO 20718 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-03T03:43:23.444+02:00  WARN 20718 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-03T03:43:23.713+02:00  INFO 20718 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-05-03T03:43:23.718+02:00  INFO 20718 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 2.872 seconds (process running for 3.637)
-2026-05-03T03:43:23.720+02:00  WARN 20718 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
-2026-05-03T03:43:23.720+02:00  WARN 20718 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
-2026-05-03T03:43:31.208+02:00  INFO 20718 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-03T03:43:31.208+02:00  INFO 20718 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-03T03:43:31.209+02:00  INFO 20718 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-05-03T03:43:31.580+02:00  INFO 20718 --- [lab06] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 120 ms
-2026-05-03T03:44:05.969+02:00  INFO 20718 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-03T03:44:05.971+02:00  INFO 20718 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-05-03T03:44:05.974+02:00  INFO 20718 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-03T03:44:05.976+02:00  INFO 20718 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-03T03:44:05.977+02:00  INFO 20718 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-05T21:27:39.328+02:00  INFO 32368 --- [lab06] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-05T21:27:39.388+02:00  INFO 32368 --- [lab06] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T21:27:39.497+02:00  INFO 32368 --- [lab06] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-05T21:27:40.510+02:00  WARN 32368 --- [lab06] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-05T21:27:41.062+02:00  INFO 32368 --- [lab06] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-05T21:27:41.073+02:00  INFO 32368 --- [lab06] [restartedMain] p.pwr.ite.dynak.lab06.Lab06Application   : Started Lab06Application in 7.47 seconds (process running for 8.523)
+2026-05-05T21:27:41.082+02:00  WARN 32368 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-05T21:27:41.082+02:00  WARN 32368 --- [lab06] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-05T21:27:42.303+02:00  INFO 32368 --- [lab06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-05T21:27:42.304+02:00  INFO 32368 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-05T21:27:42.306+02:00  INFO 32368 --- [lab06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-05T21:27:43.116+02:00  INFO 32368 --- [lab06] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 302 ms
+2026-05-05T21:30:10.616+02:00  INFO 32368 --- [lab06] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-05T21:30:10.630+02:00  INFO 32368 --- [lab06] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-05T21:30:10.639+02:00  INFO 32368 --- [lab06] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-05T21:30:10.647+02:00  INFO 32368 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-05T21:30:10.651+02:00  INFO 32368 --- [lab06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

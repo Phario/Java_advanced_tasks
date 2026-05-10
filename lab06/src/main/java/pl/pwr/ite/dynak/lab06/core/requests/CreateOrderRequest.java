@@ -9,7 +9,6 @@ public record CreateOrderRequest(
         Long clientId,
         Set<MealTypes> mealTypes,
         DietTypes dietType,
-        int paymentDate,
         int startDate,
         int endDate)
 {}

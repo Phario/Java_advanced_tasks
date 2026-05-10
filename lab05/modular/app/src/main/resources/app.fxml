@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Spinner?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="867.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pwr.ite.dynak.app.AppController">
    <children>
       <VBox alignment="CENTER" prefHeight="400.0" prefWidth="150.0">
          <children>
-            <TableView prefHeight="380.0" prefWidth="150.0">
+            <TableView fx:id="dataTableView" prefHeight="380.0" prefWidth="150.0">
               <columns>
-                <TableColumn prefWidth="75.0" text="-" />
-                <TableColumn prefWidth="75.0" text="-" />
+                <TableColumn prefWidth="75.0" text="-" fx:id="xColumn" />
+                <TableColumn fx:id="yColumn" prefWidth="75.0" text="-" />
               </columns>
             </TableView>
-            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="199.0" text="Generate Data" />
+            <Button fx:id="generateDataButton" alignment="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="199.0" text="Generate Data" />
          </children>
       </VBox>
-      <TableView prefHeight="200.0" prefWidth="200.0">
+      <TableView fx:id="algorithmsTableView" prefHeight="200.0" prefWidth="200.0">
         <columns>
-          <TableColumn prefWidth="199.0" text="Algorithm" />
+          <TableColumn fx:id="algorithmColumn" prefWidth="199.0" text="Algorithm" />
         </columns>
       </TableView>
       <VBox prefHeight="400.0" prefWidth="520.0">
@@ -41,15 +40,24 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Button alignment="CENTER" mnemonicParsing="false" text="Load cluster amount" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
-                  <Spinner editable="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Button fx:id="loadOptionsButton" alignment="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Load options" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <TextField fx:id="optionsTextField" maxWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="Options: k,iterations" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Button fx:id="calculateClustersButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Calculate clusters" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                  <Button fx:id="setPointAmountButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Set point amount" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                  <TextField fx:id="pointAmountField" maxWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="Amount of points" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
                </children>
             </GridPane>
-            <TextArea editable="false" prefHeight="100.0" prefWidth="450.0" />
+            <TextArea fx:id="logTextArea" editable="false" prefHeight="280.0" prefWidth="519.0" />
          </children>
       </VBox>
+      <TableView fx:id="resultTableView" prefHeight="380.0" prefWidth="150.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="-" fx:id="xResult" />
+            <TableColumn fx:id="yResult" prefWidth="75.0" text="-" />
+         </columns>
+      </TableView>
    </children>
 </HBox>

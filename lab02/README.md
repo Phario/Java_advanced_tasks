@@ -7,6 +7,7 @@
 Przy użyciu ograniczeń górnych pamięci efekty stały się widoczne dla plików .csv dopiero po użyciu wartości 128 (128MB)
 Przy wyższych wartościach pliki .csv były ciągle ładowane z cache (oczywiście po uprzednim załadowaniu ich), co ciekawe, 
 przy każdym ograniczeniu od 512MB w dół załadowanie jakiegokolwiek zdjęcia powodowało wyładowanie plików .csv.
+Przy ograniczeniu 64MB większość zdjęć się nie ładowało.
 
 ### -Xms[value]m
 

@@ -174,6 +174,7 @@ public class AppController {
         getInfoMethod = null;
         submitTaskMethod = null;
         getResultMethod = null;
+        processor = null;
         classInfoTextField.setText("");
         inputTextArea.setText("");
         outputTextArea.setText("");
@@ -183,6 +184,8 @@ public class AppController {
         String classStateName = classState.getClassName().getValue();
 
         log("The class loader and " + classStateName + " have been unloaded");
+
+        //System.gc();
 
         classState.setStatus("Unloaded");
     }

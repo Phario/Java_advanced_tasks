@@ -10,6 +10,7 @@ module app {
             javafx.fxml,
             javafx.graphics,
             javafx.controls;
+    opens pl.pwr.ite.dynak.app.utils to javafx.controls, javafx.fxml, javafx.graphics;
 
     uses AnalysisService;
 }

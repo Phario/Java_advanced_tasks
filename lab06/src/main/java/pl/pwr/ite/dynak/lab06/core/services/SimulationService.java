@@ -161,7 +161,6 @@ public class SimulationService {
         boolean isExit = false;
 
         switch (choice) {
-            case 0 -> currentDateService.skipDaysHandler();
             case 1 -> createOrderHandler();
             case 2 -> payForOrderHandler();
             case 3 -> isExit = true;
@@ -217,7 +216,6 @@ public class SimulationService {
                 clientId,
                 mealTypes,
                 dietType,
-                paymentDate,
                 startDate,
                 endDate
         );

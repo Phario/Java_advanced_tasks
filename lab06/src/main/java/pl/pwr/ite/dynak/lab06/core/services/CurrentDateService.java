@@ -20,8 +20,7 @@ public class CurrentDateService {
         this.actionLogService = actionLogService;
     }
 
-    public void skipDaysHandler() {
-        int daysToSkip = Integer.parseInt(IO.readln("Enter number of days to skip: "));
+    public void skipDays(int daysToSkip) {
 
         for (int i = 0; i < daysToSkip; i++) {
             advanceOneDay();
@@ -32,7 +31,7 @@ public class CurrentDateService {
         actionLogService.log(infoString, Actions.DAYS_SKIPPED);
     }
 
-    public void advanceOneDay() {
+    private void advanceOneDay() {
         CurrentDate currentDate = currentDateRepository.findById(1L).orElseThrow();
 
         int date = currentDate.getDate();
@@ -44,7 +43,8 @@ public class CurrentDateService {
         currentDateRepository.save(currentDate);
     }
 
-    public int getCurrentDate() {
+
+    public Integer getCurrentDate() {
         return currentDateRepository.findById(1L).orElseThrow().getDate();
     }
 }

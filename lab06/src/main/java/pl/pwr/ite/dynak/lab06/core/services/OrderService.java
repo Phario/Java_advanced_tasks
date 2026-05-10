@@ -88,7 +88,7 @@ public class OrderService {
         order.setPrice(price);
         order.setStartDate(request.startDate());
         order.setEndDate(request.endDate());
-        order.setPaymentDate(request.paymentDate());
+        order.setPaymentDate(0);
         order.setClient(client);
         order.setPaid(false);
 
@@ -98,7 +98,7 @@ public class OrderService {
         actionLogService.log(infoString, Actions.ORDER_CREATED);
     }
 
-    public void processOrders(int date) {
+    protected void processOrders(int date) {
         List<Order> activeOrders =
                 orderRepository.findByIsPaidTrueAndStartDateLessThanEqualAndEndDateGreaterThanEqual(date, date);
 
@@ -110,7 +110,7 @@ public class OrderService {
 
     }
 
-    public void sendReminders(int date){
+    protected void sendReminders(int date){
         int targetDate = date + 3;
 
         List<Order> unpaidOrders =
@@ -127,5 +127,13 @@ public class OrderService {
             log.info(infoString);
             actionLogService.log(infoString, Actions.REMINDER_SENT);
         });
+    }
+
+    public List<Order> getAllOrders() {
+        return orderRepository.findAll();
+    }
+
+    public List<Order> getOrdersByClientId(Long clientId) {
+        return orderRepository.findAllById(clientId);
     }
 }
