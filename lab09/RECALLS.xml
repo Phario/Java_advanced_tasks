@@ -1,0 +1,676 @@
+<response>
+<row _id="row-hwtx_b6ki_fiea" _uuid="00000000-0000-0000-6BB2-2938408941E0" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-hwtx_b6ki_fiea">
+<report_received_date>2026-05-07T00:00:00</report_received_date>
+<nhtsa_id>26V288000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V288000"/>
+<manufacturer>Chrysler (FCA US, LLC)</manufacturer>
+<subject>Vehicle Can Exceed the Speed Rating of the Tires</subject>
+<component>POWER TRAIN</component>
+<mfr_campaign_number>43D</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>12736</potentially_affected>
+<defect_summary>
+Chryser (FCA US LLC) is recalling certain 2023-2026 Ram 2500 Pick up trucks. A software error in the powertrain control module may improperly allow the vehicle speed to exceed the tire speed rating, which can result in a loss of vehicle control.
+</defect_summary>
+<consequence_summary>
+Loss of vehicle control increases the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will update the powertrain control module software, free of charge. Owner notification letters are expected to be mailed June 4, 2026. Owners may contact FCA customer service at 1-800-853-1403. FCA's number for this recall is 43D. Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov beginning May 14, 2026.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-h4mr~cvm8~sf6t" _uuid="00000000-0000-0000-316B-DDB8E6EB6170" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-h4mr~cvm8~sf6t">
+<report_received_date>2026-05-05T00:00:00</report_received_date>
+<nhtsa_id>26V285000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V285000"/>
+<manufacturer>Winnebago Industries, Inc.</manufacturer>
+<subject>Incorrectly Routed LP Hose May Cause Fire</subject>
+<component>EQUIPMENT</component>
+<mfr_campaign_number>206</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>155</potentially_affected>
+<defect_summary>
+Winnebago Industries, Inc. (Winnebago) is recalling certain 2026-2027 Solis recreational vehicles. The liquid propane (LP) hose may be incorrectly routed over the exhaust heat shield.
+</defect_summary>
+<consequence_summary>
+Heat exposure may damage the hose. A damaged hose may leak fuel, increasing the risk of a fire.
+</consequence_summary>
+<corrective_action>
+Dealers will reroute the LP hose, free of charge. Owner notification letters are expected to be mailed July 3, 2026. Owners may contact Winnebago customer service at 1-641-585-6939 or 1-800-537-1885. Winnebago's number for this recall is 206.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-quvn-qw67.7mt8" _uuid="00000000-0000-0000-4E41-7CEA5DE2EEE4" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-quvn-qw67.7mt8">
+<report_received_date>2026-05-05T00:00:00</report_received_date>
+<nhtsa_id>26V284000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V284000"/>
+<manufacturer>Shyft Group</manufacturer>
+<subject>Incorrect Cargo Carrying Capacity on Label</subject>
+<component>EQUIPMENT</component>
+<mfr_campaign_number>26-04</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>101</potentially_affected>
+<defect_summary>
+Shyft Group (Shyft) is recalling certain 2025 Utilimaster Velocity vehicles. The incorrect vehicle load value may be listed on the vehicle cargo carrying capacity label.
+</defect_summary>
+<consequence_summary>
+Incorrect weight information may lead to unintentionally overloading the vehicle, increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Utilimaster will provide new labels, free of charge. Owner notification letters are expected to be mailed May 18, 2026. Owners may contact Shyft customer service at 1-800-237-7806. Shyft's number for this recall is 26-04.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-57kv_ve5j_zf4e" _uuid="00000000-0000-0000-9209-FBEBDFABD315" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-57kv_ve5j_zf4e">
+<report_received_date>2026-05-05T00:00:00</report_received_date>
+<nhtsa_id>26V283000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V283000"/>
+<manufacturer>Tesla, Inc.</manufacturer>
+<subject>Rearview Camera Image May Not Display/FMVSS 111</subject>
+<component>BACK OVER PREVENTION</component>
+<mfr_campaign_number>SB-26-00-016</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>218868</potentially_affected>
+<defect_summary>
+Tesla, Inc. (Tesla) is recalling certain 2017, 2021-2023 Model 3, 2020-2023 Model Y, 2021-2023 Model S, and Model X vehicles operating software version 2026.8.6. The rearview camera image may be delayed when the vehicle is placed in reverse. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, "Rear Visibility."
+</defect_summary>
+<consequence_summary>
+A delayed rearview image reduces the driver's view behind the vehicle, increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Tesla has released an over-the-air (OTA) software update, free of charge. Owner notification letters are expected to be mailed July 3, 2026. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-26-00-016.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-tnsm.mcnj.wcr3" _uuid="00000000-0000-0000-1161-2B50C4F9A8DD" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-tnsm.mcnj.wcr3">
+<report_received_date>2026-05-04T00:00:00</report_received_date>
+<nhtsa_id>26V282000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V282000"/>
+<manufacturer>Gulf States Toyota, Inc.</manufacturer>
+<subject>
+Incorrect Load Carrying Capacity on Label/FMVSS 110
+</subject>
+<component>EQUIPMENT</component>
+<mfr_campaign_number>26R1</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>94</potentially_affected>
+<defect_summary>
+Gulf States Toyota, Inc. (GST) is recalling certain 2026 4Runner vehicles. The load carrying capacity modification label states the incorrect load carrying capacity. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 110, "Tire Selection and Rims."
+</defect_summary>
+<consequence_summary>
+An incorrect load carrying capacity label may lead to improper loading of the vehicle, increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+GST will mail a new modification label to owners, free of charge. Owner notification letters are scheduled to be mailed June 22, 2026. Owners may contact GST customer service at 1-800-444-1074. GST's number for this recall is 26R1.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-4rqu_a68c_xjqd" _uuid="00000000-0000-0000-2DCE-E9C6425E3EB6" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-4rqu_a68c_xjqd">
+<report_received_date>2026-05-01T00:00:00</report_received_date>
+<nhtsa_id>26V281000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V281000"/>
+<manufacturer>Mercedes-Benz USA, LLC</manufacturer>
+<subject>Blank Instrument Panel Display</subject>
+<component>ELECTRICAL SYSTEM</component>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>144049</potentially_affected>
+<defect_summary>
+Mercedes-Benz USA, LLC (MBUSA) is recalling certain 2024-2026 AMG GT, C-Class, E-Class, SL, CLE, and GLC vehicles. The infotainment control unit may reset while the vehicle is in motion and cause the instrument panel display to go blank.
+</defect_summary>
+<consequence_summary>
+An instrument panel display that fails to show critical safety information, such as the speedometer and warning lights, increases the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will update the infotainment control unit software, free of charge. Owner notification letters are expected to be mailed June 26, 2026. Owners may contact MBUSA customer service at 1-800-367-6372. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning May 8, 2026.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-8j59.v8tc~cxbx" _uuid="00000000-0000-0000-F3D2-B519D73D8939" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-8j59.v8tc~cxbx">
+<report_received_date>2026-05-01T00:00:00</report_received_date>
+<nhtsa_id>26V280000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V280000"/>
+<manufacturer>Braun Corporation</manufacturer>
+<subject>Rear Bench May Be Missing Seat Legs</subject>
+<component>SEATS</component>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>14</potentially_affected>
+<defect_summary>
+Braun Corporation (Braun) is recalling certain 2026 Ram ProMaster vehicles. The rear bench may have only two of four seat legs installed. As such, these vehicles fail to comply with Federal Motor Vehicle Safety Standard number 207, "Seating Systems."
+</defect_summary>
+<consequence_summary>
+An incomplete seat may not properly restrain an occupant, increasing risk of injury during a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will install two additional seat legs, free of charge. Owners may contact Braun customer service at 1-800-488-0359.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-4a75~djdp.n3f4" _uuid="00000000-0000-0000-D55C-1C42277757A6" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-4a75~djdp.n3f4">
+<report_received_date>2026-05-01T00:00:00</report_received_date>
+<nhtsa_id>26V279000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V279000"/>
+<manufacturer>New Flyer of America, Inc.</manufacturer>
+<subject>Speedometer May Fail to Illuminate/FVMSS 101</subject>
+<component>ELECTRICAL SYSTEM</component>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>4</potentially_affected>
+<defect_summary>
+New Flyer of America, Inc. (New Flyer) is recalling certain 2022 XE40 transit buses. The speedometer may not illuminate when the headlights are turned on. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 101, "Controls and Displays."
+</defect_summary>
+<consequence_summary>
+An unlit speedometer cannot show the vehicle's speed, increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+New Flyer will update the software, free of charge. Owner notification letters are expected to be mailed June 15, 2026. Owners may contact New Flyer's customer service at 1-800-241-2947.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-uc7g~zdgt_5ncq" _uuid="00000000-0000-0000-BDD1-AD0F614E8BDD" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-uc7g~zdgt_5ncq">
+<report_received_date>2026-05-01T00:00:00</report_received_date>
+<nhtsa_id>26V278000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V278000"/>
+<manufacturer>Mercedes-Benz USA, LLC</manufacturer>
+<subject>Front Passenger Seat Belt May Not Fasten</subject>
+<component>SEAT BELTS</component>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>15</potentially_affected>
+<defect_summary>
+Mercedes-Benz USA, LLC (MBUSA) is recalling certain 2026 CLA 350 4MATIC (EV) and CLA 250+ (EV) vehicles. The front passenger seat belt retractor may have been manufactured with a defect that prevents the deactivation of the child seat safety function (Automatic Locking Retractor). As a result, the seat belt may remain in a locked position and cannot be extended.
+</defect_summary>
+<consequence_summary>
+A passenger who is unable to fasten their seat belt is not properly restrained, increasing their risk of injury in a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will replace the front passenger seat belt, free of charge. Owner notification letters are expected to be mailed June 30, 2026. Owners may contact MBUSA customer service at 1-800-367-6372. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning May 8, 2026.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-nj4m-pctr~few6" _uuid="00000000-0000-0000-7A2E-0EAFC3CC4273" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-nj4m-pctr~few6">
+<report_received_date>2026-04-30T00:00:00</report_received_date>
+<nhtsa_id>26V277000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V277000"/>
+<manufacturer>Grand Design RV, LLC</manufacturer>
+<subject>Seat Base Incorrectly Tightened/FMVSS 207</subject>
+<component>SEATS</component>
+<mfr_campaign_number>M910060</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>426</potentially_affected>
+<defect_summary>
+Grand Design RV, LLC (Grand Design) is recalling certain 2025-2026 Lineage recreational vehicles. The driver and passenger seat bases may have not been tightened properly. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 207, “Seating Systems.”
+</defect_summary>
+<consequence_summary>
+A loose base may allow the seat to move during a crash, increasing the risk of injury.
+</consequence_summary>
+<corrective_action>
+Dealers will inspect and properly tighten the seat bases as necessary, free of charge. Owner notification letters are expected to be mailed June 23, 2026. Owners may contact Grand Design customer service at 1-574-825-9679. Grand Design's number for this recall M910060.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-jcd3-8c65~cndu" _uuid="00000000-0000-0000-4FE8-F1A2E8D7747D" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-jcd3-8c65~cndu">
+<report_received_date>1974-09-16T00:00:00</report_received_date>
+<nhtsa_id>74V154000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=74V154000"/>
+<manufacturer>FREIGHTLINER LLC</manufacturer>
+<subject>STRUCTURE:FIFTH WHEEL ASSEMBLY</subject>
+<component>TRAILER HITCHES</component>
+<mfr_campaign_number>NR (Not Reported)</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>63</potentially_affected>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-zm5i_g44g_zajr" _uuid="00000000-0000-0000-C1A8-368505D23824" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-zm5i_g44g_zajr">
+<report_received_date>2026-04-30T00:00:00</report_received_date>
+<nhtsa_id>26V276000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V276000"/>
+<manufacturer>Grand Design RV, LLC</manufacturer>
+<subject>Solar Panel May Detach From RV</subject>
+<component>EQUIPMENT</component>
+<mfr_campaign_number>M910059</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>1269</potentially_affected>
+<defect_summary>
+Grand Design RV, LLC (Grand Design) is recalling certain 2025-2026 Lineage recreational vehicles. The adhesive securing the solar panels to the roof may fail, allowing the solar panel to detach.
+</defect_summary>
+<consequence_summary>
+A detached solar panel can become a road hazard for other vehicles, increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will install mechanical fasteners, free of charge. Owner notification letters are expected to be mailed June 24, 2026. Owners may contact Grand Design customer service at 1-574-825-9679. Grand Design's number for this recall is M910059. This recall supersedes NHTSA recall 26V042.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-6pk5.4e7j-27rj" _uuid="00000000-0000-0000-CD10-CD691BC48738" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-6pk5.4e7j-27rj">
+<report_received_date>2026-04-30T00:00:00</report_received_date>
+<nhtsa_id>26V275000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V275000"/>
+<manufacturer>Nova Bus (US) Inc.</manufacturer>
+<subject>
+Control Unit May Shutdown and Cause a Loss of Drive Power
+</subject>
+<component>ELECTRICAL SYSTEM</component>
+<mfr_campaign_number>CR5882</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>40</potentially_affected>
+<defect_summary>
+Nova Bus (US) Inc. (Nova Bus) is recalling certain 2022-2023 LFS transit buses. The telemetry control unit installed in parallel with the vehicle monitoring system may cause a data overload.
+</defect_summary>
+<consequence_summary>
+An overloaded control unit may shutdown, causing a loss of drive power and increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Nova Bus will modify the connection configuration, free of charge. Owner notification letters are expected to be mailed June 29, 2026. Owners may contact Nova Bus customer service at 1-450-472-6410. Nova Bus' number for this recall is CR5882. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning June 29, 2026.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-cj2z-z3nm.erg9" _uuid="00000000-0000-0000-E3E0-D5F53AA954D1" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-cj2z-z3nm.erg9">
+<report_received_date>2026-04-29T00:00:00</report_received_date>
+<nhtsa_id>26V274000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V274000"/>
+<manufacturer>Storyteller Overland</manufacturer>
+<subject>
+Improperly Routed Coolant Lines May Cause a Loss of Drive Power
+</subject>
+<component>ENGINE AND ENGINE COOLING</component>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>357</potentially_affected>
+<defect_summary>
+Storyteller Overland, LLC (Storyteller) is recalling certain 2023 Stealth, Classic, and Beast Mode vehicles equipped with AWD. Improperly routed coolant lines may overheat the engine, causing a loss of drive power.
+</defect_summary>
+<consequence_summary>
+A loss of drive power increases the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will remove the secondary heat exchanger loop, free of charge. Owner notification letters are expected to be mailed June 24, 2026. Owners may contact Storyteller customer service at 1-888-999-7442.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-v4pa_hxy3~az7a" _uuid="00000000-0000-0000-07BD-B044F4C6F022" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-v4pa_hxy3~az7a">
+<report_received_date>2026-04-29T00:00:00</report_received_date>
+<nhtsa_id>26E024000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26E024000"/>
+<manufacturer>Dorman Products, Inc.</manufacturer>
+<subject>Detached Shift Cable Bushing/FMVSS 102, 114</subject>
+<component>POWER TRAIN</component>
+<mfr_campaign_number>GC0426XXXXX</mfr_campaign_number>
+<recall_type>Equipment</recall_type>
+<potentially_affected>66867</potentially_affected>
+<defect_summary>
+Dorman Products, Inc. (Dorman) is recalling certain Dorman Transmission Gearshift Cables, with part numbers 905-146, 905-644, 905-142, and Solutions Transmission Gearshift Cables with part numbers BK905-1146-1, and BK905-1142-1. The gearshift cable bushing may detach from the linkage, which can prevent the vehicle from shifting into gear properly, including "Park" position. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) numbers 102, “Transmission shift position sequence, starter interlock, and transmission braking effect," and FMVSS number 114, "Theft Protection."
+</defect_summary>
+<consequence_summary>
+The inability to shift into "Park" can result in a vehicle rollaway, increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Dorman will provide inspection instructions and replacement bushings, free of charge. Owner notification letters are expected to be mailed June 19, 2026. Owners may contact Dorman customer service at 1-800-523-2492. Dorman's number for this recall is GC0426XXXXX.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-a4hi-vvmi_isbq" _uuid="00000000-0000-0000-9E6A-05B25E1AF1FB" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-a4hi-vvmi_isbq">
+<report_received_date>2026-04-29T00:00:00</report_received_date>
+<nhtsa_id>26V273000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V273000"/>
+<manufacturer>Newmar Corporation</manufacturer>
+<subject>
+Incorrect Cargo Carrying Capacity on Label/FMVSS 120
+</subject>
+<component>EQUIPMENT</component>
+<mfr_campaign_number>631 RSB</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>32</potentially_affected>
+<defect_summary>
+Newmar Corporation (Newmar) is recalling certain 2026 Freedom Aire motorhomes. The Cargo Carrying Capacity (CCC) label may state an incorrect weight value. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 120, “Wheels and Rims - Other Than Passenger Cars.”
+</defect_summary>
+<consequence_summary>
+Incorrect weight information can allow the vehicle to be overloaded, increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will replace the labels, free of charge. Owner notification letters are expected to be mailed June 27, 2026. Owners may contact Newmar customer service at 1-800-731-8300. Newmar's number for this recall is 631 RSB.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-trwr.yve6~kj3d" _uuid="00000000-0000-0000-94EF-677F4416ED6E" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-trwr.yve6~kj3d">
+<report_received_date>2026-04-29T00:00:00</report_received_date>
+<nhtsa_id>26V272000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V272000"/>
+<manufacturer>Newmar Corporation</manufacturer>
+<subject>Front Chin Spoiler May Detach During Transit</subject>
+<component>STRUCTURE</component>
+<mfr_campaign_number>630 RSB</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>61</potentially_affected>
+<defect_summary>
+Newmar Corporation (Newmar) is recalling certain 2026 Freedom Aire motorhomes. The front chin spoiler may detach during transit.
+</defect_summary>
+<consequence_summary>
+A detached spoiler may become a road hazard, increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will install pop-rivets to properly secure the spoiler, free of charge. Owner notification letters are expected to be mailed June 27, 2026. Owners may contact Newmar customer service at 1-800-731-8300. Newmar's number for this recall is 630 RSB.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-fqnx~6qzj~qcn3" _uuid="00000000-0000-0000-8F10-8B669B1FB6EC" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-fqnx~6qzj~qcn3">
+<report_received_date>2026-04-29T00:00:00</report_received_date>
+<nhtsa_id>26V271000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V271000"/>
+<manufacturer>Roadtrek Inc.</manufacturer>
+<subject>Pop-Top Latch and Safety Straps May Fail</subject>
+<component>EQUIPMENT</component>
+<mfr_campaign_number>2026-01</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>312</potentially_affected>
+<defect_summary>
+Roadtrek Inc. (Roadtrek) is recalling certain 2024-2026 Westfalia Wave SL, 2022-2026 Zion Slumber, Play Slumber, 2026 Play Tuff SL, 2025-2026 Play+Slumber, and 2024 Pivot Slumber recreational vehicles. The pop-top latch may disengage during transit, causing the pop-top to lift.
+</defect_summary>
+<consequence_summary>
+A pop-top that lifts during transit can distract the driver, or detach if the secondary safety straps fail, increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will replace the primary latch and secondary safety straps, free of charge. Owner notification letters are expected to be mailed June 26, 2026. Owners may contact Roadtrek customer service at 1-888-762-3873. Roadtrek's number for this recall is 2026-01.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-27r7~77p3_yqf7" _uuid="00000000-0000-0000-3F60-DAB2643D8299" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-27r7~77p3_yqf7">
+<report_received_date>2026-04-28T00:00:00</report_received_date>
+<nhtsa_id>26V270000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V270000"/>
+<manufacturer>Harley-Davidson Motor Company</manufacturer>
+<subject>Pressurized Crankcase May Eject Oil</subject>
+<component>ENGINE AND ENGINE COOLING</component>
+<mfr_campaign_number>0193</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>88039</potentially_affected>
+<defect_summary>
+Harley-Davidson Motor Company (Harley-Davidson) is recalling certain 2024-2026 FLTRX, FLHX, 2025-2026 FXBR, FLFB, 2025 FLHXU, 2026 FLTRXL, FLTRT, FLHXL, and FLHLT motorcycles built with an Airbox Baseplate (part number 29000373). The airbox backplate breather port may be blocked, allowing pressure to build up inside the crankcase.
+</defect_summary>
+<consequence_summary>
+When the dipstick is removed while the crankcase is pressurized, oil may eject from the fill spout, increasing the risk of injury.
+</consequence_summary>
+<corrective_action>
+Dealers will inspect the breather port, and if the port is blocked, repair the blockage, free of charge. Owner notification letters are expected to be mailed May 11, 2026. Owners may contact Harley-Davidson customer service at 1-800-258-2464. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov April 16, 2025. Harley-Davidson's number for this recall is 0193.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-kwzy-uau5-4vih" _uuid="00000000-0000-0000-41D5-407B11AA572D" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-kwzy-uau5-4vih">
+<report_received_date>2026-04-28T00:00:00</report_received_date>
+<nhtsa_id>26V269000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V269000"/>
+<manufacturer>Lode-King Industries, Ltd.</manufacturer>
+<subject>Insufficient Rear Impact Protection/FMVSS 223</subject>
+<component>STRUCTURE</component>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>114</potentially_affected>
+<defect_summary>
+Lode-King Industries, Ltd (Lode-King) is recalling certain 2019-2026 SDG53-3, SDF53-3, and SDF50-3 trailers. The rear impact guard may be missing welds, reducing the guard's structural strength. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 223, "Rear Impact Guards."
+</defect_summary>
+<consequence_summary>
+A guard with inadequate strength may not sufficiently protect a following vehicle, increasing the risk of injury during a rear end crash.
+</consequence_summary>
+<corrective_action>
+Lode-King will inspect and add welds as necessary, free of charge. Owner notification letters are expected to be mailed May 4, 2026. Owners may contact Lode-King's customer service at 1-204-325-4345 or 1-866-797-0669. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning May 22, 2026.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-i9k9.mkig_8erh" _uuid="00000000-0000-0000-9993-CC35CD831567" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-i9k9.mkig_8erh">
+<report_received_date>1999-10-28T00:00:00</report_received_date>
+<nhtsa_id>99V292000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=99V292000"/>
+<manufacturer>Harley-Davidson Motor Company</manufacturer>
+<subject>HARLEY-DAVIDSON/FUEL TANK VENT SYSTEM</subject>
+<component>FUEL SYSTEM, GASOLINE</component>
+<mfr_campaign_number>0101</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>52126</potentially_affected>
+<defect_summary>
+VEHICLE DESCRIPTION: MOTORCYCLES. THE FUEL TANK VENT SYSTEM CAN MALFUNCTION.
+</defect_summary>
+<consequence_summary>
+THIS CONDITION COULD CAUSE THE ENGINE TO STALL OR QUIT WHEN RIDING.
+</consequence_summary>
+<corrective_action>DEALERS WILL CORRECT THE FUEL TANK VENT SYSTEM.</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-ya3f.aecx-a684" _uuid="00000000-0000-0000-5CD0-504B541AACBD" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-ya3f.aecx-a684">
+<report_received_date>2026-04-28T00:00:00</report_received_date>
+<nhtsa_id>26V268000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V268000"/>
+<manufacturer>Ford Motor Company</manufacturer>
+<subject>Loose Bolt in Front Seat Frame</subject>
+<component>SEATS</component>
+<mfr_campaign_number>26S30</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>179698</potentially_affected>
+<defect_summary>
+Ford Motor Company (Ford) is recalling certain 2024-2026 Ranger and Bronco vehicles. The front seats may have a loose or dislodged seat frame height-adjust pivot bolt.
+</defect_summary>
+<consequence_summary>
+A seat with a dislodged bolt may not properly restrain an occupant in a crash, increasing the risk of injury.
+</consequence_summary>
+<corrective_action>
+Dealers will inspect and replace the pivot links and bolts as necessary, free of charge. Interim letters, notifying owners of the safety risk, are expected to be mailed May 11, 2026. Additional letters will be sent once the final remedy is available, anticipated in July 2026. Owners may contact Ford customer service at 1-866-436-7332. Ford’s number for this recall is 26S30. Vehicle Identification Numbers (VINs) involved in this recall became searchable on NHTSA.gov beginning April 30, 2026.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-kpym~phgu~aa8f" _uuid="00000000-0000-0000-1467-11E55E4CE1A2" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-kpym~phgu~aa8f">
+<report_received_date>2026-04-28T00:00:00</report_received_date>
+<nhtsa_id>26V267000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V267000"/>
+<manufacturer>Jayco, Inc.</manufacturer>
+<subject>The Water Heater May be Missing the Mixing Valve</subject>
+<component>EQUIPMENT</component>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>35</potentially_affected>
+<defect_summary>
+Jayco, Inc. (Jayco) is recalling certain 2026 Entegra Condor and Jayco Granite Ridge motorhomes. The tempering mixing valve may not have been installed on the water heater.
+</defect_summary>
+<consequence_summary>
+The water could reach scalding temperatures without the mixing valve, increasing the risk of injury.
+</consequence_summary>
+<corrective_action>
+Owners are advised to turn on the cold water first until the repairs are complete. Dealers will install the valve, free of charge. Owner notification letters were mailed May 1, 2026. Owners may contact Jayco customer service at 1-800-283-8267. Vehicle Identification Numbers (VINs) involved in this recall will be searchable on NHTSA.gov beginning May 28, 2026.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-cgej.e4uz~jkrn" _uuid="00000000-0000-0000-5A16-CC04ABC084CE" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-cgej.e4uz~jkrn">
+<report_received_date>2026-04-27T00:00:00</report_received_date>
+<nhtsa_id>26E023000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26E023000"/>
+<manufacturer>American Battery Solutions Inc.</manufacturer>
+<subject>
+High Voltage Battery Contactor Failure May Cause Loss of Drive Power
+</subject>
+<component>ELECTRICAL SYSTEM</component>
+<recall_type>Equipment</recall_type>
+<potentially_affected>91</potentially_affected>
+<defect_summary>
+American Battery Solutions Inc. (ABS) is recalling certain Proliance High Voltage Batteries with part number 20000114-AB. The high voltage battery contactor may fail to close, causing a loss of drive power.
+</defect_summary>
+<consequence_summary>
+A loss of drive power can increase the risk of a crash.
+</consequence_summary>
+<corrective_action>
+ABS will replace the battery contactors, free of charge. Owner notification letters are expected to be mailed by June 26, 2026. Owners may contact ABS customer service at 1-248-462-6364.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-txhi~eyax.j469" _uuid="00000000-0000-0000-2E3C-918AC7EA7948" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-txhi~eyax.j469">
+<report_received_date>2026-04-24T00:00:00</report_received_date>
+<nhtsa_id>26V266000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V266000"/>
+<manufacturer>Volkswagen Group of America, Inc.</manufacturer>
+<subject>Seat Belts May Not Restrain Occupants</subject>
+<component>SEAT BELTS</component>
+<mfr_campaign_number>69GT</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>7425</potentially_affected>
+<defect_summary>
+Volkswagen Group of America, Inc. (Audi) is recalling certain 2025 Q5, Q5 Sportback, SQ5, and SQ5 Sportback vehicles. The driver and front passenger seat belts may have been manufactured incorrectly, and fail to properly restrain occupants during a crash.
+</defect_summary>
+<consequence_summary>
+Improperly restrained occupants have an increased risk of injury during a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will replace the driver and front passenger seat belts as necessary, free of charge. Owner notification letters are expected to be mailed June 23, 2026. Owners may contact Audi's customer service at 1-800-253-2834. Audi's number for this recall is 69GT.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-ktcc~3sus~aac6" _uuid="00000000-0000-0000-9D58-AE3DEE40C86B" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-ktcc~3sus~aac6">
+<report_received_date>2026-04-24T00:00:00</report_received_date>
+<nhtsa_id>26V265000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V265000"/>
+<manufacturer>Shyft Group</manufacturer>
+<subject>Incorrect GVWR on Certification Label</subject>
+<component>EQUIPMENT</component>
+<mfr_campaign_number>26-03</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>21</potentially_affected>
+<defect_summary>
+Shyft Group (Shyft) is recalling certain 2022 Utilimaster Aeromaster vehicles. The Gross Vehicle Weight Rating (GVWR) listed on the certification label may be incorrect. As such, these vehicles fail to comply with the requirements of 49 CFR Part 567, "Certification."
+</defect_summary>
+<consequence_summary>
+Referencing the incorrect GVWR may lead to unintentionally overloading the vehicle, increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Shyft will install new labels, free of charge. Owner notification letters are expected to be mailed May 14, 2026. Owners may contact Shyft customer service at 1-800-237-7806. Shyft's number for this recall is 26-03.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-8a8x-tbjd~3er9" _uuid="00000000-0000-0000-82BC-B7276B711363" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-8a8x-tbjd~3er9">
+<report_received_date>2026-04-23T00:00:00</report_received_date>
+<nhtsa_id>26V264000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V264000"/>
+<manufacturer>REV Recreation Group</manufacturer>
+<subject>Park Outside: Generator May Turn On Unexpectedly</subject>
+<component>ELECTRICAL SYSTEM</component>
+<mfr_campaign_number>260422REV</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>12</potentially_affected>
+<defect_summary>
+REV Recreation Group (REV) is recalling certain 2026 Holiday Rambler Vacationer, Admiral, Fleetwood Flair, Fortis, and Bounder motorhomes. The furnace may create electrical signal that turns the generator on unexpectedly.
+</defect_summary>
+<consequence_summary>
+A generator that operates in an enclosed space, such as a garage, increases the risk of injury or death from carbon monoxide poisoning.
+</consequence_summary>
+<corrective_action>
+Owners are advised to park outside until the repair has been performed. Dealers will install a relay harness, free of charge. Owner notification letters are expected to be mailed June 19, 2026. Owners may contact REV customer service at 1-800-322-8216. REV's number for this recall is 260422REV.
+</corrective_action>
+<fire_risk_when_parked>Yes</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-e3k3_jfnd.5czh" _uuid="00000000-0000-0000-CE5B-54D0543798E6" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-e3k3_jfnd.5czh">
+<report_received_date>2026-04-23T00:00:00</report_received_date>
+<nhtsa_id>26V263000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V263000"/>
+<manufacturer>Jaguar Land Rover North America, LLC</manufacturer>
+<subject>Fuel Tank May Leak</subject>
+<component>FUEL SYSTEM, GASOLINE</component>
+<mfr_campaign_number>D127</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>6</potentially_affected>
+<defect_summary>
+Jaguar Land Rover North America, LLC (Land Rover) is recalling certain 2026 Land Rover Defender vehicles. The fuel tank was improperly manufactured with walls that are too thin.
+</defect_summary>
+<consequence_summary>
+In the event of a crash, an improperly manufactured fuel tank may leak fuel, increasing the risk of a fire.
+</consequence_summary>
+<corrective_action>
+Dealers will replace the fuel tank, free of charge. Interim letters notifying owners of the safety risk are expected to be mailed June 19, 2026. Additional letters will be sent once the final remedy is available. Owners may contact Land Rover's customer service at 800-637-6837. Land Rover's number for this recall is D127.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-5kwh~b9av_cvhq" _uuid="00000000-0000-0000-EDF9-571565153DBE" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-5kwh~b9av_cvhq">
+<report_received_date>2026-04-23T00:00:00</report_received_date>
+<nhtsa_id>26E025000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26E025000"/>
+<manufacturer>General Motors, LLC</manufacturer>
+<subject>Sediment in Brake Fluid/FMVSS 116</subject>
+<component>ENGINE AND ENGINE COOLING</component>
+<mfr_campaign_number>N262552830</mfr_campaign_number>
+<recall_type>Equipment</recall_type>
+<potentially_affected>40440</potentially_affected>
+<defect_summary>
+General Motors (GM) is recalling certain containers of ACDelco GMW DOT 3 brake and clutch fluid (lot #01977 091222). The brake fluid may contain visible sediment. As such, this brake fluid fails to conform to Federal Motor Vehicle Safety Standard number 116, "Motor Vehicle Brake Fluids."
+</defect_summary>
+<consequence_summary>
+Sediment in brake fluid may reduce brake performance, increasing the risk of a crash.
+</consequence_summary>
+<corrective_action>
+GM will reimburse dealers and ACDelco’s direct purchasers for any containers with the suspect lot number. Purchasers may contact GM customer service at 1-866-467-9700. GM's number for this recall is N262552830.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-uxst_8pfr-tegy" _uuid="00000000-0000-0000-139C-8743E8C989C1" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-uxst_8pfr-tegy">
+<report_received_date>2026-04-23T00:00:00</report_received_date>
+<nhtsa_id>26V262000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=26V262000"/>
+<manufacturer>Chrysler (FCA US, LLC)</manufacturer>
+<subject>Instrument Panel Display Failure/FMVSS 108, 208</subject>
+<component>ELECTRICAL SYSTEM</component>
+<mfr_campaign_number>39D</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>20271</potentially_affected>
+<defect_summary>
+Chrysler (FCA US, LLC) is recalling certain 2024-2025 Jeep Wagoneer S and Dodge Charger electric vehicles. A software error may cause the instrument panel display to fail. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard numbers 108, "Lamps, Reflective Devices, and Associated Equipment," 126, "Electronic Stability Control Systems for Light Vehicles," 135, "Light Vehicle Brake Systems," 138, "Tire Pressure Monitoring System," and/or 208, "Occupant Crash Protection."
+</defect_summary>
+<consequence_summary>
+An instrument panel display that fails to show critical safety information, such as gear selection and warning lights, increases the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will update the instrument panel software, free of charge. Owner notification letters are expected to be mailed May 21, 2026. Owners may contact FCA customer service at 1-800-853-1403. FCA's number for this recall is 39D. Vehicle Identification Numbers (VINs) involved in this recall will become searchable on NHTSA.gov beginning April 30, 2026.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+</row>
+<row _id="row-yy36~fpd5.zerh" _uuid="00000000-0000-0000-DAA0-ED8960A202DD" _position="0" _address="https://data.transportation.gov/resource/_6axg-epim/row-yy36~fpd5.zerh">
+<report_received_date>2025-12-19T00:00:00</report_received_date>
+<nhtsa_id>25V902000</nhtsa_id>
+<recall_link description="Go to Recall" url="https://www.nhtsa.gov/recalls?nhtsaId=25V902000"/>
+<manufacturer>Corp. Micro Bird, Inc.</manufacturer>
+<subject>Power Steering Pump May Fail</subject>
+<component>STEERING</component>
+<mfr_campaign_number>25-119-PUC</mfr_campaign_number>
+<recall_type>Vehicle</recall_type>
+<potentially_affected>10</potentially_affected>
+<defect_summary>
+Corp. Micro Bird, Inc. (Micro Bird) is recalling certain 2018-2019, 2024-2026 G5E transit buses. The power steering pump may fail to start when the ignition is turned on or may shutdown unexpectedly.
+</defect_summary>
+<consequence_summary>
+A loss of power steering assist can increase the risk of a crash.
+</consequence_summary>
+<corrective_action>
+Dealers will inspect and update the software as necessary, free of charge. Owner notification letters were mailed February 18, 2026. Owners can contact Micro Bird Customer Service at 819-477-2012. Micro Bird's number for this recall is 25-119-PUC.
+</corrective_action>
+<fire_risk_when_parked>No</fire_risk_when_parked>
+<do_not_drive>No</do_not_drive>
+<completion_rate>0.00</completion_rate>
+</row>
+</response>
