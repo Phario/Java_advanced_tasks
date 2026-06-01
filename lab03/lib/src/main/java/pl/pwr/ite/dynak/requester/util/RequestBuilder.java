@@ -7,7 +7,8 @@ import java.net.URI;
 import java.net.URL;
 
 public class RequestBuilder {
-    private static final String BASE_URL = "https://swapi.dev/api/";
+    // Musiałem zmienić bo swapi.dev padło po 20/04
+    private static final String BASE_URL = "https://swapi.info/api/";
     protected static final int MAX_ID = 15;
 
     public static URL buildInfoURL(int id, RequestType type) {
