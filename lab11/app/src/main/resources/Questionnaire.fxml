@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="600.0" style="-fx-background-color: #E9FBFA;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pwr.ite.dynak.app.QuestionnaireController">
+   <children>
+      <TextFlow prefHeight="66.0" prefWidth="560.0" style="-fx-background-color: #439BDE; -fx-background-radius: 15;" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+         <children>
+            <Label fx:id="questionPromptLabel" text="Question:" textFill="WHITE">
+               <padding>
+                  <Insets left="250.0" right="250.0" />
+               </padding>
+               <font>
+                  <Font name="Fira Code Regular" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="questionLabel" text="Content" textFill="WHITE">
+               <font>
+                  <Font name="Fira Code Regular" size="13.0" />
+               </font></Label>
+         </children>
+      </TextFlow>
+      <TextField fx:id="answerField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="300.0" promptText="Enter your answer here">
+         <VBox.margin>
+            <Insets left="150.0" right="150.0" />
+         </VBox.margin>
+      </TextField>
+      <StackPane prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="universalButton" mnemonicParsing="false" prefHeight="55.0" prefWidth="300.0" style="-fx-background-color: #43DED4; -fx-background-radius: 15; -fx-border-color: #43DE86; -fx-border-radius: 15; -fx-border-width: 3;" text="Start Quiz" />
+         </children>
+      </StackPane>
+      <StackPane prefHeight="90.0" prefWidth="600.0">
+         <children>
+            <TextFlow fx:id="correctLabelField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="580.0" style="-fx-background-color: #43DE86; -fx-background-radius: 15;" textAlignment="CENTER" visible="false">
+               <children>
+                  <StackPane prefHeight="55.0" prefWidth="600.0">
+                     <children>
+                        <Label fx:id="correctLabel" style="-fx-background-radius: 15;" text="Correct!" textFill="WHITE">
+                           <font>
+                              <Font name="Fira Code Regular" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+               </children>
+            </TextFlow>
+            <TextFlow fx:id="wrongLabelField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="580.0" style="-fx-background-color: #DE439B; -fx-background-radius: 15;" textAlignment="CENTER" visible="false">
+               <children>
+                  <StackPane prefHeight="55.0" prefWidth="600.0">
+                     <children>
+                        <Label fx:id="wrongLabel" style="-fx-background-radius: 15;" text="Wrong answer!" textFill="WHITE">
+                           <font>
+                              <Font name="Fira Code Regular" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+               </children>
+            </TextFlow>
+         </children>
+      </StackPane>
+      <StackPane prefHeight="50.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="progressLabel" text="Progress:">
+               <StackPane.margin>
+                  <Insets right="500.0" />
+               </StackPane.margin>
+            </Label>
+            <ProgressBar fx:id="progressBar" prefHeight="25.0" prefWidth="421.0">
+               <effect>
+                  <Glow />
+               </effect>
+            </ProgressBar>
+         </children>
+      </StackPane>
+      <MenuBar prefHeight="25.0" prefWidth="600.0">
+        <menus>
+            <Menu fx:id="menuLang" mnemonicParsing="false" text="Language">
+              <items>
+                  <MenuItem fx:id="menuLangEnglish" mnemonicParsing="false" text="English" />
+                <MenuItem fx:id="menuLangPolish" mnemonicParsing="false" text="Polski" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</VBox>

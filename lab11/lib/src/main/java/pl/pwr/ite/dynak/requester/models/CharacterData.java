@@ -1,0 +1,18 @@
+package pl.pwr.ite.dynak.requester.models;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class CharacterData {
+    private String name;
+    private String gender;
+    private String height;
+}
