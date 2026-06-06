@@ -35,7 +35,7 @@
     </dependencies>
 
     <properties>
-        <maven.compiler.source>9</maven.compiler.source>
+        <maven.compiler.source>25</maven.compiler.source>
         <maven.compiler.target>9</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -47,7 +47,15 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.15.0</version>
                 <configuration>
-                    <release>9</release> </configuration>
+                    <release>9</release>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>1.18.42</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
                 <executions>
                     <execution>
                         <id>java14-compile</id>

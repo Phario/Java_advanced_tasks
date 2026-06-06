@@ -1,0 +1,4 @@
+podstawy, coś wiedzieć o programowaniu w dotnecie, umieć myśleć
+kolejkę zadań
+przyspieszanie zapytań, optymalizacja EF core
+object lifecycles

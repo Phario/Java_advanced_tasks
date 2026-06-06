@@ -7,8 +7,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -16,4 +14,12 @@ public class PlanetData {
     private String name;
     @JsonProperty("rotation_period")
     private String rotationPeriod;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getRotationPeriod() {
+        return rotationPeriod;
+    }
 }

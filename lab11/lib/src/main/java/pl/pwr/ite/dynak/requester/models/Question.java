@@ -2,7 +2,6 @@ package pl.pwr.ite.dynak.requester.models;
 
 import lombok.Getter;
 
-@Getter
 public class Question {
     private String questionText;
     private String answerText;
@@ -12,5 +11,17 @@ public class Question {
         this.questionText = questionText;
         this.answerText = answerText;
         this.answerValue = answerValue;
+    }
+
+    public String getAnswerText() {
+        return answerText;
+    }
+
+    public int getAnswerValue() {
+        return answerValue;
+    }
+
+    public String getQuestionText() {
+        return questionText;
     }
 }

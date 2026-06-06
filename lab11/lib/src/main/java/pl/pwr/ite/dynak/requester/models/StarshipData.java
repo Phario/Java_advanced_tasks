@@ -16,4 +16,12 @@ public class StarshipData {
     private String name;
     @JsonProperty("crew")
     private String crewCapacity;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getCrewCapacity() {
+        return crewCapacity;
+    }
 }
