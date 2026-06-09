@@ -16,4 +16,8 @@ import java.util.List;
 public class RecallResponse {
     @XmlElement(name = "row")
     private List<Recall> recalls;
+
+    public List<Recall> getRecalls() {
+        return recalls;
+    }
 }
