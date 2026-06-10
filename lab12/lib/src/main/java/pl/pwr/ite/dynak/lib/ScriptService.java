@@ -8,18 +8,23 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ScriptService {
+    // TODO: swap później na silnik od JS a nie ten niżej
     private final Engine engine = Engine.create();
     private Map<String, Context> contextMap = new HashMap<>();
 
     public int[][] getPathFromScript(String scriptName, int[][] map, int startX, int startY, int endX, int endY) {
+        // fetchowanie kontekstu
         Context context = contextMap.get(scriptName);
 
         if (context == null) {
             throw new RuntimeException("Script not found");
         }
 
+        // pobranie dostępu do funkcji przechowywanych w obiekcie globalnym JS
         Value jsBindings = context.getBindings("js");
+        // pobranie funkcji do wykonania
         Value generatePath = jsBindings.getMember("findPath");
+        // wykonanie funkcji
         return generatePath.execute(map, startX, startY, endX, endY).as(int[][].class);
     }
 
@@ -49,16 +54,20 @@ public class ScriptService {
         }
 
         for (File scriptFile : jsFiles) {
+            // daje nazwę pliku bez rozszerzenia
             String scriptId = scriptFile.getName().substring(0, scriptFile.getName().length() - 3);
 
             try {
+                // obiket rozumiany przez graalvm
                 Source source = Source.newBuilder("js", scriptFile).build();
 
+                // przestrzeń w pamięci w której odpala się ten skrypt
                 Context context = Context.newBuilder("js")
                         .engine(engine)
                         .allowHostAccess(HostAccess.ALL)
                         .build();
 
+                // odpala kod w pliku, wtedy te funkcje są przechowywane w pamięci kontekstu
                 context.eval(source);
 
                 contextMap.put(scriptId, context);
