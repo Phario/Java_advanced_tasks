@@ -1,0 +1,17 @@
+.cell {
+    -fx-border-color: #004F39;
+    -fx-border-width: 0.5;
+    -fx-background-color: #30A585;
+}
+
+.wall {
+    -fx-background-color: black;
+}
+
+.cell-highlight {
+    -fx-background-color: orange;
+}
+
+.path {
+    -fx-background-color: red;
+}

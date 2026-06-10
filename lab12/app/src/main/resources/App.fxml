@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pwr.ite.dynak.app.AppController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="600.0" prefWidth="400.0">
+         <children>
+            <TableView fx:id="scriptsTableView" prefHeight="300.0" prefWidth="250.0">
+              <columns>
+                <TableColumn fx:id="scriptNameTableColumn" prefWidth="399.0" text="Script name" />
+              </columns>
+            </TableView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="90.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="chooseScriptFolderButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Choose script folder" />
+                        <Button fx:id="generateMapButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Generate map" />
+                        <Button fx:id="findPathButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="129.0" text="Find path" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="90.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="mapSizeTextField" promptText="Map size (x,y)" />
+                        <TextField fx:id="startingPointTextField" promptText="Starting point (x.y)" />
+                        <TextField fx:id="finishPointTextField" promptText="Finish point (x,y)" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Button fx:id="clearScriptsButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="400.0" text="Clear scripts" />
+            <TextArea fx:id="logTextArea" editable="false" prefHeight="200.0" prefWidth="400.0" />
+         </children>
+      </VBox>
+      <StackPane fx:id="mapStackPane" prefHeight="600.0" prefWidth="600.0" />
+   </children>
+</HBox>
