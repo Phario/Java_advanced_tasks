@@ -6,7 +6,7 @@
 This repo was made to showcase the various projects that had to be done for the advanced Java course at the 
 Wrocław University of Science and Technology
 
-The point of these projects was to study different aspects of the JVM like reflection,
+The point of these projects was to study different aspects of the JVM and general programming topics like reflection,
 garbage collection, using C-written libraries in Java programs, programs using mTLS etc.
 
 Most of these projects feature JavaFX as the UI framework.
