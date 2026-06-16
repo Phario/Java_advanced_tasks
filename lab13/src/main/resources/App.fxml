@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.MapValueFactory ?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <TableView fx:id="table" editable="true">
+        <columns>
+            <TableColumn fx:id="nameColumn" text="Items" prefWidth="200">
+                <cellValueFactory>
+                    <MapValueFactory key="name"/>
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="valueColumn" text="Values" prefWidth="200">
+                <cellValueFactory>
+                    <MapValueFactory key="value"/>
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+
+    <BarChart fx:id="chart" prefHeight="600.0" prefWidth="800" >
+        <xAxis>
+            <CategoryAxis fx:id="xAxis" label="Item"/>
+        </xAxis>
+        <yAxis>
+            <NumberAxis fx:id="yAxis" label="Value"/>
+        </yAxis>
+    </BarChart>
+
+    <fx:script source="AppScript.js" />
+</HBox>

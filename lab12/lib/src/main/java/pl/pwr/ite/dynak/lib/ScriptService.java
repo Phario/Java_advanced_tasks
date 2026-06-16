@@ -8,8 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ScriptService {
-    // TODO: swap później na silnik od JS a nie ten niżej
-    private final Engine engine = Engine.create();
+    private final Engine engine = Engine.create("js", "graal.js", "--language=es2020");
     private Map<String, Context> contextMap = new HashMap<>();
 
     public int[][] getPathFromScript(String scriptName, int[][] map, int startX, int startY, int endX, int endY) {

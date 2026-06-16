@@ -1,0 +1,30 @@
+package pl.pwr.ite.dynak.app;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+// Based on: https://github.com/brunoborges/webfx/blob/master/webfx-samples/src/main/webapp/tableview/tableview.fxml
+// https://stackoverflow.com/questions/41332483/javafx-run-changelistener
+public class Main extends Application {
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/App.fxml"));
+        Parent root = loader.load();
+        var scene = new Scene(root);
+
+        primaryStage.setTitle("Pathfinder");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+
+}
+
