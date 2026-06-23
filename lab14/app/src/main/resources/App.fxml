@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pwr.ite.dynak.app.AppController">
+   <children>
+      <VBox prefHeight="500.0" prefWidth="200.0">
+         <children>
+            <TableView fx:id="ticketTableView" prefHeight="400.0" prefWidth="200.0">
+              <columns>
+                <TableColumn fx:id="ticketNumberTableColumn" prefWidth="67.0" text="Ticket no." />
+                  <TableColumn fx:id="categoryTableColumn" prefWidth="72.0" text="Category" />
+                <TableColumn fx:id="priorityTableColumn" prefWidth="60.0" text="Priority" />
+              </columns>
+            </TableView>
+            <TextField fx:id="categoryTextField" promptText="Category" />
+            <Button fx:id="createTicketButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" text="Create ticket" />
+            <Button fx:id="createNewCategoryButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="244.0" text="Create new category" />
+            <Button fx:id="removeCategoryButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="206.0" text="Remove category" />
+         </children>
+      </VBox>
+      <VBox prefHeight="500.0" prefWidth="300.0">
+         <children>
+            <Label text="Booth #1" />
+            <Button fx:id="booth1GetTicketButton" mnemonicParsing="false" text="Get ticket" />
+            <Label fx:id="booth1Label" text="Currently serving:" />
+            <TextField fx:id="booth1NewCatField" promptText="New category name" />
+            <Button fx:id="booth1AddCatButton" mnemonicParsing="false" text="Add supported category" />
+            <Button fx:id="booth1RemCatButton" mnemonicParsing="false" text="Remove supported category" />
+            <Label fx:id="booth1SupCatsLabel" text="Supported categories: " />
+         </children>
+      </VBox>
+      <VBox prefHeight="500.0" prefWidth="300.0">
+         <children>
+            <Label text="Booth #2" />
+            <Button fx:id="booth2GetTicketButton" mnemonicParsing="false" text="Get ticket" />
+            <Label fx:id="booth2Label" text="Currently serving:" />
+            <TextField fx:id="booth2NewCatField" promptText="New category name" />
+            <Button fx:id="booth2AddCatButton" mnemonicParsing="false" text="Add supported category" />
+            <Button fx:id="booth2RemCatButton" mnemonicParsing="false" text="Remove supported category" />
+            <Label fx:id="booth2SupCatsLabel" text="Supported categories: " />
+         </children>
+      </VBox>
+      <VBox prefHeight="500.0" prefWidth="300.0">
+         <children>
+            <Label text="Booth #3:" />
+            <Button fx:id="booth3GetTicketButton" mnemonicParsing="false" text="Get ticket" />
+            <Label fx:id="booth3Label" text="Currently serving:" />
+            <TextField fx:id="booth3NewCatField" promptText="New category name" />
+            <Button fx:id="booth3AddCatButton" mnemonicParsing="false" text="Add supported category" />
+            <Button fx:id="booth3RemCatButton" mnemonicParsing="false" text="Remove supported category" />
+            <Label fx:id="booth3SupCatsLabel" text="Supported categories: " />
+         </children>
+      </VBox>
+   </children>
+</HBox>
