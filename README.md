@@ -27,5 +27,5 @@ Each lab folder should have a separate README.md file with my notes regarding th
 | lab10 | Chat app with TLS sockets, sending string messages and attachments        |
 | lab11 | Multi-release JAR and installer for the lab03 Quiz app                    |
 | lab12 | Extendable Java app via JavaScript files, GraalVM polyglot                |
-| lab13 | Previous app but the JavaFX part is written exclusively in JavaScript     |
+| lab13 | Using Java ChangeListeners in JavaScript scripts used in FXML files       |
 | lab14 | Utilising MBeans with JConsole to create a monitored ticketing system     |
