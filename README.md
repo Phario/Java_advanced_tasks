@@ -22,7 +22,7 @@ Each lab folder should have a separate README.md file with my notes regarding th
 | lab04 | Reflection, custom class-loaders                                          |
 | lab05 | Service Provider Interface (SPI) via google.auto.service and JPMS         |
 | lab06 | Catering app Spring REST API with Swagger, JPA                            |
-| lab08 | Java Native Interface (JNI), image filtering (Gassian and Median filters) |
+| lab08 | Java Native Interface (JNI), image filtering (Gaussian and Median filters)|
 | lab09 | XML parsing via SaxB, SaxP (via DOM and SaX), XSLT transformations        |
 | lab10 | Chat app with TLS sockets, sending string messages and attachments        |
 | lab11 | Multi-release JAR and installer for the lab03 Quiz app                    |
